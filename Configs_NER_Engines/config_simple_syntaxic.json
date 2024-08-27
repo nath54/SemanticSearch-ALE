@@ -1,0 +1,10 @@
+{
+    "config_name": "SimpleSyntaxicNER",
+
+    "algorithms": [
+        {
+            "type": "SimpleSyntaxic_NER_Algorithm",
+            "coef": 1.0
+        }
+    ]
+}

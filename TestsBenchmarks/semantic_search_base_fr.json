@@ -1,0 +1,75 @@
+{
+    "type": "semantic_search",
+    "title": "Evaluation Sémantique basique en Français",
+    "description": "Test de recherche sémantique basique avec messages et des recherches en français sémantiquement différents, avec des recherches exprimant un message sémantique proche du message recherchée. Le dataset a été généré par Gemini(Google) et préparé/modifié/traité/controllé par Nathan Cerisara.",
+    "rbi_path": "RBI_base_semantic_fr",
+    "searchs": [
+
+        {
+            "search_input": "Le repas était excellent, je vous remercie.",
+            "user_id": 0,
+            "awaited_result_message": 0
+        },
+
+        {
+            "search_input": "Je critique un peu, mais la nourriture n'était pas fameuse, un peu sèche.",
+            "user_id": 2,
+            "awaited_result_message": 2
+        },
+
+        {
+            "search_input": "J'espère que vous me rembourserez l'argent que vous me devez.",
+            "user_id": 3,
+            "awaited_result_message": 3
+        },
+
+        {
+            "search_input": "Le stade était en feu hier lors de la victoire des locaux, les supporters étaient en folie.",
+            "user_id": 6,
+            "awaited_result_message": 6
+        },
+
+        {
+            "search_input": "J'ai beaucoup révisé pour ces exams, c'était compliqué.",
+            "user_id": 8,
+            "awaited_result_message": 8
+        },
+
+        {
+            "search_input": "Je ne peux m'empêcher de lire.",
+            "user_id": 13,
+            "awaited_result_message": 13
+        },
+
+        {
+            "search_input": "J'ai bien dressé mon animal de companie.",
+            "user_id": 14,
+            "awaited_result_message": 14
+        },
+
+        {
+            "search_input": "Les fleurs sont vraiment jolies depuis leurs eclosions",
+            "user_id": 17,
+            "awaited_result_message": 17
+        },
+
+        {
+            "search_input": "Le progrès technologique permet d'effectuer des choses difficiles.",
+            "user_id": 18,
+            "awaited_result_message": 18
+        },
+
+        {
+            "search_input": "L'art contemporain, c'est différent de l'art classique quand même.",
+            "user_id": 23,
+            "awaited_result_message": 23
+        },
+
+        {
+            "search_input": "Est-ce que vous pensez que l'on pourra vivre dans l'espace plus tard?",
+            "user_id": 27,
+            "awaited_result_message": 27
+        }
+
+    ]
+}

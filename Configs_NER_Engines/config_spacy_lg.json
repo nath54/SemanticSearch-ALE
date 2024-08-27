@@ -1,0 +1,10 @@
+{
+    "config_name": "SpaCy_LG_NER",
+
+    "algorithms": [
+        {
+            "type": "SpaCy_LG_NER_Algorithm",
+            "coef": 1.0
+        }
+    ]
+}

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2000"
+   height="1500"
+   viewBox="0 0 529.16665 396.875"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="figure_one_thread_zoom.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ebebeb"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#1a1a1a"
+     inkscape:document-units="px"
+     inkscape:zoom="0.30962616"
+     inkscape:cx="802.58077"
+     inkscape:cy="718.60853"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWide"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path1" />
+    </marker>
+    <rect
+       x="57.989947"
+       y="190.5384"
+       width="151.87843"
+       height="1143.2304"
+       id="rect1" />
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:11.28888871px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linejoin:round"
+       x="328.98618"
+       y="363.38174"
+       id="text43"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.79375;font-size:11.28888871px"
+         x="328.98618"
+         y="363.38174"
+         id="tspan43">tasks queues</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect45"
+       width="404.66898"
+       height="60.88736"
+       x="114.91946"
+       y="331.09622" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.28888871px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linejoin:round"
+       x="58.860497"
+       y="360.28195"
+       id="text91"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.79375;font-size:11.28888871px"
+         x="58.860497"
+         y="360.28195"
+         id="tspan91">new tasks</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.79375;font-size:11.28888871px"
+         x="58.860497"
+         y="374.39307"
+         id="tspan102">handler</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect91"
+       width="93.069801"
+       height="61.101341"
+       x="14.113072"
+       y="330.88223" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.28888871px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linejoin:round"
+       x="318.40286"
+       y="278.71524"
+       id="text92"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.79375;font-size:11.28888871px"
+         x="318.40286"
+         y="278.71524"
+         id="tspan92">Test if still</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.79375;font-size:11.28888871px"
+         x="318.40286"
+         y="292.82635"
+         id="tspan99">remains tasks</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect92"
+       width="98.871796"
+       height="27.13792"
+       x="268.90195"
+       y="267.50775" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.2889px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linejoin:round"
+       x="114.45437"
+       y="286.65399"
+       id="text93"><tspan
+         sodipodi:role="line"
+         style="font-size:11.2889px;stroke-width:0.79375"
+         x="114.45437"
+         y="286.65399"
+         id="tspan93">wait for</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:11.2889px;stroke-width:0.79375"
+         x="114.45437"
+         y="297.9429"
+         id="tspan100">tasks</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect93"
+       width="67.733337"
+       height="28.045837"
+       x="81.227081"
+       y="274.37292" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.2889px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linejoin:round"
+       x="115.07725"
+       y="220.37036"
+       id="text94"><tspan
+         sodipodi:role="line"
+         style="font-size:11.2889px;stroke-width:0.79375"
+         x="115.07725"
+         y="220.37036"
+         id="tspan94">begin task</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:11.2889px;stroke-width:0.79375"
+         x="115.07725"
+         y="231.65926"
+         id="tspan101">execution</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect94"
+       width="74.347916"
+       height="28.045835"
+       x="78.581245"
+       y="208.22708" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.2889px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linejoin:round"
+       x="106.25779"
+       y="125.12036"
+       id="text95"><tspan
+         sodipodi:role="line"
+         style="font-size:11.2889px;stroke-width:0.79375"
+         x="106.25779"
+         y="125.12036"
+         id="tspan95">engine</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:11.2889px;stroke-width:0.79375"
+         x="106.25779"
+         y="136.40926"
+         id="tspan103">for</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:11.2889px;stroke-width:0.79375"
+         x="106.25779"
+         y="147.69817"
+         id="tspan104">Task A</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect95"
+       width="47.889587"
+       height="38.629169"
+       x="82.549995"
+       y="114.3" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.2889px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linejoin:round"
+       x="172.40363"
+       y="125.17328"
+       id="text96"><tspan
+         sodipodi:role="line"
+         style="font-size:11.2889px;stroke-width:0.79375"
+         x="172.40363"
+         y="125.17328"
+         id="tspan96">engine</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:11.2889px;stroke-width:0.79375"
+         x="172.40363"
+         y="136.46217"
+         id="tspan106">for</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:11.2889px;stroke-width:0.79375"
+         x="172.40363"
+         y="147.75108"
+         id="tspan107">Task B</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect96"
+       width="47.889587"
+       height="38.629169"
+       x="148.69583"
+       y="114.3" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.2889px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linejoin:round"
+       x="357.61194"
+       y="125.12036"
+       id="text97"><tspan
+         sodipodi:role="line"
+         style="font-size:11.2889px;stroke-width:0.79375"
+         x="357.61194"
+         y="125.12036"
+         id="tspan97">engine</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:11.2889px;stroke-width:0.79375"
+         x="357.61194"
+         y="136.40926"
+         id="tspan108">for</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:11.2889px;stroke-width:0.79375"
+         x="357.61194"
+         y="147.69817"
+         id="tspan109">Task C</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect97"
+       width="47.889587"
+       height="38.629169"
+       x="335.22708"
+       y="114.3" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.2889px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linejoin:round"
+       x="249.31473"
+       y="32.516197"
+       id="text98"><tspan
+         sodipodi:role="line"
+         style="font-size:11.2889px;stroke-width:0.79375"
+         x="249.31473"
+         y="32.516197"
+         id="tspan98">main server clients</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect98"
+       width="512.23334"
+       height="38.629169"
+       x="8.4666653"
+       y="8.4666653" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect99"
+       width="305.85834"
+       height="43.920837"
+       x="79.904167"
+       y="111.65416" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 92.604165,328.08333 V 305.59375"
+       id="path109"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="m 130.96875,305.59375 v 22.48958"
+       id="path110"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 136.26041,328.08333 V 305.59375"
+       id="path111"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="m 326.09895,297.65625 v 30.42708"
+       id="path112"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 319.48437,328.08333 V 297.65625"
+       id="path113"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="m 264.58333,284.42708 h -111.125"
+       id="path114"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 264.58333,264.58333 157.42708,238.125"
+       id="path115"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 113.77083,271.19791 V 240.77083"
+       id="path116"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 113.77083,203.72916 V 158.75"
+       id="path117"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 322.79166,158.75 V 261.9375"
+       id="path118"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 244.73958,105.83333 V 55.562499"
+       id="path119"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="282.41321"
+       y="81.89061"
+       id="text119"><tspan
+         sodipodi:role="line"
+         style="font-size:9.87778px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833"
+         x="282.41321"
+         y="81.89061"
+         id="tspan120">send tasks</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:9.87778px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833"
+         x="282.41321"
+         y="91.768387"
+         id="tspan121">results</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87778px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="84.826561"
+       y="176.15211"
+       id="text123"><tspan
+         sodipodi:role="line"
+         style="font-size:9.87778px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833"
+         x="84.826561"
+         y="176.15211"
+         id="tspan123">task</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:9.87778px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833"
+         x="84.826561"
+         y="186.02989"
+         id="tspan125">to good</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:9.87778px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833"
+         x="84.826561"
+         y="195.90767"
+         id="tspan126">engine</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="59.215569"
+       y="316.01779"
+       id="text127"><tspan
+         sodipodi:role="line"
+         id="tspan127"
+         style="stroke-width:1.05833"
+         x="59.215569"
+         y="316.01779">new task</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1.05833"
+         x="59.215569"
+         y="325.89557"
+         id="tspan128">wake up</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="164.35341"
+       y="321.45596"
+       id="text129"><tspan
+         sodipodi:role="line"
+         id="tspan129"
+         style="stroke-width:1.05833"
+         x="164.35341"
+         y="321.45596">get task</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="205.44177"
+       y="281.57608"
+       id="text130"><tspan
+         sodipodi:role="line"
+         id="tspan130"
+         style="stroke-width:1.05833"
+         x="205.44177"
+         y="281.57608">NO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="221.15202"
+       y="248.34285"
+       id="text131"><tspan
+         sodipodi:role="line"
+         id="tspan131"
+         style="stroke-width:1.05833"
+         x="221.15202"
+         y="248.34285">YES</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5778px;line-height:1;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="252.0849"
+       y="135.86949"
+       id="text132"><tspan
+         sodipodi:role="line"
+         id="tspan132"
+         style="font-size:22.5778px;stroke-width:1.05833"
+         x="252.0849"
+         y="135.86949">...</tspan></text>
+  </g>
+</svg>

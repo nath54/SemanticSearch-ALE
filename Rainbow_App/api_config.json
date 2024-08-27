@@ -1,0 +1,16 @@
+{
+    "bot_account_login_email": "...",
+    "bot_account_login_password": "...",
+    "application_id": "...",
+    "application_secret": "...",
+    "api_host": "...",
+    "api_port": "443",
+    "python_ws_adress": "",
+    "python_ws_port": "42043",
+    "rbi_name": "SandboxRBI",
+    "nb_msgs_batch": "256",
+    "socket_messages_delimiter": "\n\n\n\n\n",
+    "bot_user_id": "...",
+    "on_bot_connection_message": "Bot is connected !!!",
+    "on_bot_disconnection_message":  "Bot will now be disconnected."
+}

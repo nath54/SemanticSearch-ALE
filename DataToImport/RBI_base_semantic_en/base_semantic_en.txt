@@ -1,0 +1,92 @@
+0_Meal Monday, January 1, 2024 12:00 AM
+Oh, I had a great lunch today! The meal was very good, especially the steak au poivre. Thank you so much for the invitation, Emilie!
+
+1_Hike Monday, January 1, 2024 12:00 AM
+This hike was very difficult, I almost twisted my ankle a hundred times at least!
+
+2_Food_criticism Monday, January 1, 2024 12:00 AM
+Marguerite, your cakes were very dry.
+
+3_Debt Monday, January 1, 2024 12:00 AM
+You all owe me 20€ for last night's party, by the way, did you all get home safely?
+
+4_Consumption Monday, January 1, 2024 12:00 AM
+I have money, I'm usually comfortable. And so I buy stuff, and people see that I have stuff, and they say to themselves, I want to buy stuff too.
+
+5_Technology Monday, January 1, 2024 12:00 AM
+The new update to my phone has significantly improved its performance and battery life.
+
+6_Sport Monday, January 1, 2024 12:00 AM
+The football match last night was intense, the home team scored the winning goal in the dying minutes.
+
+7_Travel Monday, January 1, 2024 12:00 AM
+My trip to Tokyo was amazing, I visited ancient temples and tasted delicious food.
+
+8_Studies Monday, January 1, 2024 12:00 AM
+This year's exams were particularly difficult, I had to study late every night to get through them.
+
+9_Weather Monday, January 1, 2024 12:00 AM
+The weather today is beautiful, with clear blue skies and a pleasant temperature.
+
+10_Health Monday, January 1, 2024 12:00 AM
+Since I've been exercising regularly, I feel much more energetic and healthy.
+
+11_Music Monday, January 1, 2024 12:00 AM
+The jazz concert last night was breathtaking, the musicians were incredibly talented.
+
+12_Cinema Monday, January 1, 2024 12:00 AM
+The last movie I saw at the cinema really moved me, the story was poignant and the actors were excellent.
+
+13_Reading Monday, January 1, 2024 12:00 AM
+The book I'm reading right now is captivating, I can't put it down.
+
+14_Pets Monday, January 1, 2024 12:00 AM
+My dog learned a new trick yesterday, he can now roll over on command.
+
+15_Fashion Monday, January 1, 2024 12:00 AM
+This winter's new clothing collection is really trendy, I love the colors and cuts on offer.
+
+16_Cooking Monday, January 1, 2024 12:00 AM
+I tried a new pasta recipe tonight, with a creamy mushroom sauce and parmesan cheese.
+
+17_Gardening Monday, January 1, 2024 12:00 AM
+The garden is starting to bloom beautifully, the roses are particularly vibrant this year.
+
+18_Technology Monday, January 1, 2024 12:00 AM
+Artificial intelligence is progressing at an incredible speed, it is now capable of performing very complex tasks.
+
+19_Politics Monday, January 1, 2024 12:00 AM
+The recent elections have brought about many changes in the country's political landscape.
+
+20_Economy Monday, January 1, 2024 12:00 AM
+Stock market fluctuations this week have been unpredictable, creating uncertainty among investors.
+
+21_Environment Monday, January 1, 2024 12:00 AM
+Deforestation continues to be a major problem, endangering many animal species.
+
+22_History Monday, January 1, 2024 12:00 AM
+The recent discovery of an ancient artifact has shed new light on Egyptian civilization.
+
+23_Art Monday, January 1, 2024 12:00 AM
+The contemporary art exhibition I visited yesterday was fascinating, the arts were very innovative.
+
+24_Cars Monday, January 1, 2024 12:00 AM
+Electric cars are gaining popularity thanks to their environmental and economic advantages.
+
+25_Education Monday, January 1, 2024 12:00 AM
+Modern teaching methods are increasingly integrating technology to improve student learning.
+
+26_Psychology Monday, January 1, 2024 12:00 AM
+Understanding human psychology is essential for improving interpersonal relationships and overall well-being.
+
+27_Astronomy Monday, January 1, 2024 12:00 AM
+Recent observations from space telescopes have revealed new potentially habitable exoplanets.
+
+28_Gastronomy Monday, January 1, 2024 12:00 AM
+The Michelin-starred restaurant where I dined last night offered me an unforgettable culinary experience with its innovative dishes.
+
+29_Video_Games Monday, January 1, 2024 12:00 AM
+The new video game released this month has stunning graphics and a captivating story.
+
+30_Lifestyle Monday, January 1, 2024 12:00 AM
+Adopting a minimalist lifestyle has helped me focus on what's essential and reduce my daily stress.

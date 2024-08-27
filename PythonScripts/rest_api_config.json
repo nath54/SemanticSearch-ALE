@@ -1,0 +1,9 @@
+{
+    "dev_account_login_email": "...",
+    "dev_account_login_password": "...",
+    "application_id": "...",
+    "application_secret": "...",
+    "rest_request_host_prefix": "...",
+    "rest_protocol": "https://",
+    "rest_port": 443
+}

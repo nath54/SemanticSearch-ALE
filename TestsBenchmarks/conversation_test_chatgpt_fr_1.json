@@ -1,0 +1,391 @@
+{
+    "type": "conversation",
+    "title": "Conversation Segmentation Test - ChatGPT - Fr - 1",
+    "description": "Ensuite, il y a une autre liste de messages, et l'objectif ici est également de sectionner cette liste de messages en plusieurs conversations.",
+    "messages": [
+
+        {
+            "id": "0",
+            "content": "Salut tout le monde, est-ce que quelqu'un a lu l'article de recherche de François sur la génération automatique de code et les fichiers de configuration spécifiques?",
+            "author": "Marie Lefevre",
+            "date": "2024/10/02 - 09h00",
+            "answer_message": ""
+        },
+
+        {
+            "id": "1",
+            "content": "Salut Marie, oui je l'ai lu. C'est vraiment fascinant!",
+            "author": "Paul Martin",
+            "date": "2024/10/02 - 09h05",
+            "answer_message": "0"
+        },
+
+        {
+            "id": "2",
+            "content": "Bonjour! Je commence juste à le lire, mais ça m'a l'air prometteur.",
+            "author": "Sophie Dubois",
+            "date": "2024/10/02 - 09h10",
+            "answer_message": "0"
+        },
+
+        {
+            "id": "3",
+            "content": "Ce qui est incroyable, c'est comment il arrive à générer des fichiers de configuration complets pour différentes plateformes.",
+            "author": "Marie Lefevre",
+            "date": "2024/10/02 - 09h15",
+            "answer_message": "1"
+        },
+
+        {
+            "id": "4",
+            "content": "Oui, j'ai été impressionné par cette partie aussi. Ça réduit tellement le temps de mise en place!",
+            "author": "Paul Martin",
+            "date": "2024/10/02 - 09h20",
+            "answer_message": "3"
+        },
+
+        {
+            "id": "5",
+            "content": "Pour ceux qui ne l'ont pas encore lu, l'article explique en détail comment utiliser des modèles de langage pour générer du code et des fichiers de configuration personnalisés pour diverses configurations de déploiement.",
+            "author": "François Bernard",
+            "date": "2024/10/02 - 09h25",
+            "answer_message": ""
+        },
+
+        {
+            "id": "6",
+            "content": "C'est vraiment utile, surtout dans les environnements DevOps où les configurations changent souvent.",
+            "author": "Paul Martin",
+            "date": "2024/10/02 - 09h30",
+            "answer_message": "5"
+        },
+
+        {
+            "id": "7",
+            "content": "Absolument, ça pourrait vraiment améliorer notre workflow.",
+            "author": "Sophie Dubois",
+            "date": "2024/10/02 - 09h35",
+            "answer_message": "5"
+        },
+
+        {
+            "id": "8",
+            "content": "D'ailleurs, est-ce que l'un d'entre vous a des idées sur comment on pourrait intégrer cette technologie dans nos projets actuels?",
+            "author": "Marie Lefevre",
+            "date": "2024/10/02 - 09h40",
+            "answer_message": ""
+        },
+
+        {
+            "id": "9",
+            "content": "On pourrait commencer par l'utiliser pour les scripts de déploiement. Ça nous ferait gagner un temps précieux.",
+            "author": "Paul Martin",
+            "date": "2024/10/02 - 09h45",
+            "answer_message": "8"
+        },
+
+        {
+            "id": "10",
+            "content": "Je pense que ça serait une excellente application. Un projet pilote serait une bonne idée.",
+            "author": "François Bernard",
+            "date": "2024/10/02 - 09h50",
+            "answer_message": "8"
+        },
+
+        {
+            "id": "11",
+            "content": "Bonjour, je sais que ce n'est pas totalement lié, mais avez-vous le temps pour reconsidérer notre approche vis-à-vis des frameworks front-end?",
+            "author": "Emily Petit",
+            "date": "2024/10/02 - 09h55",
+            "answer_message": ""
+        },
+
+        {
+            "id": "12",
+            "content": "Bonjour Emily, justement, nous en parlions hier. Quel est ton avis?",
+            "author": "Sophie Dubois",
+            "date": "2024/10/02 - 10h00",
+            "answer_message": "11"
+        },
+
+        {
+            "id": "13",
+            "content": "Je pense qu'on devrait explorer React plus en profondeur. Il a beaucoup de fonctionnalités qui pourraient simplifier notre développement.",
+            "author": "Emily Petit",
+            "date": "2024/10/02 - 10h05",
+            "answer_message": "12"
+        },
+
+        {
+            "id": "14",
+            "content": "Je suis d'accord, et sa communauté est très active ce qui est un plus.",
+            "author": "Marie Lefevre",
+            "date": "2024/10/02 - 10h10",
+            "answer_message": "13"
+        },
+
+        {
+            "id": "15",
+            "content": "J'allais justement proposer qu'on organise une session de formation sur React. Qu'en pensez-vous?",
+            "author": "Paul Martin",
+            "date": "2024/10/02 - 10h15",
+            "answer_message": "14"
+        },
+
+        {
+            "id": "16",
+            "content": "Oui, ça serait très bénéfique pour toute l'équipe.",
+            "author": "François Bernard",
+            "date": "2024/10/02 - 10h20",
+            "answer_message": "15"
+        },
+
+        {
+            "id": "17",
+            "content": "Est-ce que tout le monde serait disponible la semaine prochaine pour cette formation?",
+            "author": "Sophie Dubois",
+            "date": "2024/10/02 - 10h25",
+            "answer_message": "16"
+        },
+
+        {
+            "id": "18",
+            "content": "Pour moi oui! Ça me semble parfait.",
+            "author": "Marie Lefevre",
+            "date": "2024/10/02 - 10h30",
+            "answer_message": "17"
+        },
+
+        {
+            "id": "19",
+            "content": "Idem, je serai disponible.",
+            "author": "Paul Martin",
+            "date": "2024/10/02 - 10h35",
+            "answer_message": "17"
+        },
+
+        {
+            "id": "20",
+            "content": "Bon alors, c'est réglé. Je vais organiser cela.",
+            "author": "François Bernard",
+            "date": "2024/10/02 - 10h40",
+            "answer_message": "19"
+        },
+
+        {
+            "id": "21",
+            "content": "Bonjour, j'ai besoin de discuter d'un autre sujet: le budget pour le trimestre prochain.",
+            "author": "Anna Morel",
+            "date": "2024/10/02 - 10h45",
+            "answer_message": ""
+        },
+
+        {
+            "id": "22",
+            "content": "Salut Anna, nous avons justement une réunion prévue pour cela cet après-midi.",
+            "author": "Sophie Dubois",
+            "date": "2024/10/02 - 10h50",
+            "answer_message": "21"
+        },
+
+        {
+            "id": "23",
+            "content": "Parfait, j'apporterai mes notes et analyses.",
+            "author": "Anna Morel",
+            "date": "2024/10/02 - 10h55",
+            "answer_message": "22"
+        },
+
+        {
+            "id": "24",
+            "content": "Merci Anna, c'est toujours un plaisir de travailler avec toi.",
+            "author": "Marie Lefevre",
+            "date": "2024/10/02 - 11h00",
+            "answer_message": "23"
+        },
+
+        {
+            "id": "25",
+            "content": "Salut équipe, j'ai besoin de quelques idées pour le nouveau projet client.",
+            "author": "Paul Martin",
+            "date": "2024/10/02 - 11h05",
+            "answer_message": ""
+        },
+
+        {
+            "id": "26",
+            "content": "Peux-tu nous donner plus de détails sur leurs exigences?",
+            "author": "Sophie Dubois",
+            "date": "2024/10/02 - 11h10",
+            "answer_message": "25"
+        },
+
+        {
+            "id": "27",
+            "content": "Bien sûr, ils souhaitent un système intégré qui peut automatiser leur chaîne de production.",
+            "author": "Paul Martin",
+            "date": "2024/10/02 - 11h15",
+            "answer_message": "26"
+        },
+
+        {
+            "id": "28",
+            "content": "Cela semble complexe, mais tout à fait faisable avec les bonnes technologies.",
+            "author": "François Bernard",
+            "date": "2024/10/02 - 11h20",
+            "answer_message": "27"
+        },
+
+        {
+            "id": "29",
+            "content": "On pourrait aussi inclure des solutions basées sur l'IA pour optimiser les processus.",
+            "author": "Marie Lefevre",
+            "date": "2024/10/02 - 11h25",
+            "answer_message": "28"
+        },
+
+        {
+            "id": "30",
+            "content": "Exactement, nous pourrions utiliser des modèles pré-entraînés pour prédire les goulots d'étranglement et proposer des ajustements en temps réel.",
+            "author": "Sophie Dubois",
+            "date": "2024/10/02 - 11h30",
+            "answer_message": "29"
+        },
+
+        {
+            "id": "31",
+            "content": "C'est une excellente idée, Sophie! Je vais préparer une proposition initiale.",
+            "author": "Paul Martin",
+            "date": "2024/10/02 - 11h35",
+            "answer_message": "30"
+        },
+
+        {
+            "id": "32",
+            "content": "Bonjour tout le monde, juste une petite annonce: la sécurité vient de terminer la mise à jour des protocoles.",
+            "author": "Luke Perry",
+            "date": "2024/10/02 - 11h40",
+            "answer_message": ""
+        },
+
+        {
+            "id": "33",
+            "content": "Merci pour l'info, Luke. Y a-t-il eu des perturbations?",
+            "author": "Marie Lefevre",
+            "date": "2024/10/02 - 11h45",
+            "answer_message": "32"
+        },
+
+        {
+            "id": "34",
+            "content": "Non, tout s'est déroulé sans problème.",
+            "author": "Luke Perry",
+            "date": "2024/10/02 - 11h50",
+            "answer_message": "33"
+        },
+
+        {
+            "id": "35",
+            "content": "C'est une bonne nouvelle, merci. La prudence est de mise avec de telles mises à jour.",
+            "author": "François Bernard",
+            "date": "2024/10/02 - 11h55",
+            "answer_message": "34"
+        },
+
+        {
+            "id": "36",
+            "content": "Salut tout le monde, quelqu'un sait-il où je peux trouver le rapport trimestriel?",
+            "author": "Anna Morel",
+            "date": "2024/10/02 - 12h00",
+            "answer_message": ""
+        },
+
+        {
+            "id": "37",
+            "content": "Salut Anna, il est dans le dossier partagé sous 'Rapports Q3'.",
+            "author": "Luke Perry",
+            "date": "2024/10/02 - 12h05",
+            "answer_message": "36"
+        },
+
+        {
+            "id": "38",
+            "content": "Merci Luke.",
+            "author": "Anna Morel",
+            "date": "2024/10/02 - 12h10",
+            "answer_message": "37"
+        },
+
+        {
+            "id": "39",
+            "content": "Je vous en prie!",
+            "author": "Luke Perry",
+            "date": "2024/10/02 - 12h15",
+            "answer_message": "38"
+        }
+    ],
+
+    "conversation_colors": {
+        "0":  0,
+        "1":  0,
+        "2":  0,
+        "3":  0,
+        "4":  0,
+        "5":  0,
+        "6":  0,
+        "7":  0,
+        "8":  1,
+        "9":  1,
+        "10": 1,
+        "11": 2,
+        "12": 2,
+        "13": 2,
+        "14": 2,
+        "15": 2,
+        "16": 2,
+        "17": 2,
+        "18": 2,
+        "19": 2,
+        "20": 3,
+        "21": 3,
+        "22": 3,
+        "23": 3,
+        "24": 4,
+        "25": 4,
+        "26": 4,
+        "27": 4,
+        "28": 4,
+        "29": 4,
+        "30": 4,
+        "31": 4,
+        "32": 5,
+        "33": 5,
+        "34": 5,
+        "35": 5,
+        "36": 6,
+        "37": 6,
+        "38": 6,
+        "39": 6
+    },
+
+    "conversation_results": [
+        ["0", "1", "2", "3", "4", "5", "6", "7"],
+        ["8", "9", "10"],
+        ["11", "12", "13", "14", "15", "16", "17", "18", "19"],
+        ["20", "21", "22", "23", "24"],
+        ["25", "26", "27", "28", "29", "30", "31"],
+        ["32", "33", "34", "35"],
+        ["36", "37", "38", "39"]
+    ],
+
+    "conversation_results_advanced": [
+        ["0", "1", "2", "3", "4", "5", "6", "7"],
+        ["8", "9", "10"],
+        ["11", "12", "13", "14", "15", "16", "17", "18", "19"],
+        ["20", "21", "22", "23", "24"],
+        ["25", "26", "27", "28", "29", "30", "31"],
+        ["32", "33", "34", "35"],
+        ["36", "37", "38", "39"]
+    ]
+
+}

@@ -1,0 +1,126 @@
+<!--
+
+Ceci est la page principale de l'application web pour le projet de découpage des conversations et de recherche sémantique, dont on pourra accéder à une démo, voir les benchmarks et voir les explications de comment ca marche
+
+Auteur: Nathan Cerisara
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <!-- Paramètres de la page -->
+        <meta charset="utf-8" />
+        <link rel="icon" href="res/logo_ale.svg">
+
+        <!-- Titre de l'application -->
+        <title>Index - Application Web pour le projet de découpage des conversations et de recherche sémantique pour l'application Rainbow à ALE</title>
+
+        <!-- Styles de l'application -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/index.css">
+
+        <!-- Include google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div id="main_container" class="background_white_to_violet_gradient">
+
+            <div class="container m_auto center_h col h_100">
+
+                <!-- Logo ALE et texte ALE -->
+                <div class="container m_auto center_h row h_auto">
+
+                    <!-- Logo ALE -->
+                    <div class="m_5p">
+
+                        <img class="main_logo_ale" src="res/logo_ale.svg" />
+
+                    </div>
+
+                    <!-- Texte ALE -->
+                    <div class="col m_0">
+                        <div class="center_v m_0 left_align">
+                            <h1 class="m_0">Alcatel • Lucent</h1>
+                        </div>
+                        <div class="center_v m_0 left_align">
+                            <h1 class="m_0">Enterprise</h1>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Titre du projet -->
+                <div class="container m_auto center_h">
+                    <h2>Projet de découpage des conversations et de recherche sémantique</h2>
+                </div>
+
+                <!-- Description de l'auteur -->
+                <div class="container m_auto center_h row">
+
+                    <!-- Photo de profil de l'auteur -->
+                    <div class="m_5p">
+
+                        <div class="img_icon_author"></div>
+
+                    </div>
+
+                    <!-- Description de l'auteur -->
+                    <div class="col center_h">
+
+                        <!-- Nom de l'auteur -->
+                        <div class="row left_align">
+
+                            <label class="left_align">par <b>Nathan Cerisara</b></label>
+
+                        </div>
+
+                        <!-- Dates du projet -->
+                        <div class="row left_align">
+
+                            <i class="font_smaller left_align">stage du 1er juin au 30 août 2024</i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Boutons pour accéder aux éléments du projet -->
+                <div class="container m_auto center_h row">
+
+                    <!-- Bouton pour accéder aux benchmarks -->
+                    <div>
+                        <button id="button_benchmark" onclick="go_to_benchmarks();">Benchmarks</button>
+                    </div>
+
+                    <!-- Bouton pour accéder à la démo -->
+                    <div>
+                        <button id="button_demo" onclick="go_to_demo();">Accéder à la démo</button>
+                    </div>
+
+                    <!-- Bouton pour accéder aux explications du projet -->
+                    <div>
+                        <button id="button_explications" onclick="go_to_explications();">Explications</button>
+                    </div>
+                </div>
+
+                <!-- Separateur vertical -->
+                <div class="separator_v_large"></div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+    <!-- Scripts -->
+    <script src="js/lib.js" type="text/javascript"></script>
+    <script src="js/general.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+
+</html>

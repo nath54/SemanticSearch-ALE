@@ -1,0 +1,402 @@
+/*
+Styles spécifiques à des éléments de la page web benchmarks
+
+Auteur: Nathan Cerisara
+*/
+
+#select_platform {
+    max-height: var(--size_normal);
+}
+
+#benchmark_table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+#benchmark_table * {
+    border-collapse: collapse;;
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 5px;
+}
+
+.sort_arrow {
+    border-collapse: separate !important;
+    border: none !important;
+    color: rgb(200, 200, 200) !important;
+    font-size: var(--font_size_normal);
+}
+
+.sort_arrow_descending {
+    color: var(--ale_purple) !important;
+    font-weight: 800;
+    font-size: var(--font_size_small);
+}
+
+.sort_arrow_ascending {
+    transform: rotate(180deg) !important;
+    color: var(--ale_purple) !important;
+    font-weight: 800;
+    font-size: var(--font_size_small);
+}
+
+#benchmark_table_header {
+    background-color: white;
+    border: 1px solid black;
+    position: sticky;
+    position: -webkit-sticky;
+    border-collapse: separate !important;
+    box-shadow: black 0 0 0 1px;
+    top: 0;
+    z-index: 20;
+}
+
+#benchmark_table_header_row1,
+#benchmark_table_header_row2 {
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#benchmark_table_body {
+    border: 1px solid black;
+}
+
+.table_benchmark_name {
+    border-right: 1px solid black !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.engine_result_row {
+    border: 1px solid black;
+    border-bottom: 1px solid black !important;
+    height: calc( var(--size_large) * 0.8) !important;
+}
+
+.table_engine_name {
+    background-color: white;
+    border: 1px solid black;
+    z-index: 10;
+    border-right: 2px solid black !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    position: sticky;
+    position: -webkit-sticky;
+    border-collapse: separate !important;
+    box-shadow: black 0 0 0 1px;
+    left: 0;
+}
+
+.table_engine_avg {
+    border: 1px solid black;
+    border-right: 1px solid black !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.table_engine_score {
+    border: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.table_engine_speed {
+    border: 1px solid black;
+    border-right: 1px solid black !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.sort_span{
+    border: none !important;
+}
+
+.very_bad_value {
+    color: red !important;
+}
+
+.bad_value {
+    color: orangered !important;
+}
+
+.acceptable_value {
+    color: orange;
+}
+
+.good_value {
+    color: green;
+}
+
+.very_good_value {
+    color: rgb(0, 190, 0);
+}
+
+.best_value {
+    font-weight: 600;
+}
+
+
+#benchmark_result_div_absolute_scores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.benchmark_result_absolute_score{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 0;
+    min-width: var(--size_small);
+    height: var(--size_small);
+}
+
+.benchmark_details_search {
+    border-radius: 5px;
+    background-color: var(--bg1_base);
+    border: none;
+    width: 75%;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.engine_config_details_search_algorithms{
+    border-radius: 5px;
+    background-color: var(--bg1_base);
+    border: none;
+    width: 75%;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.benchmark_subpage{
+    overflow: hidden;
+}
+
+#container_benchmark_table{
+    overflow: auto;
+    margin: auto;
+    display: flex;
+    flex-grow: 1;
+    margin: 40px;
+    border: 1px solid black;
+}
+
+::-webkit-scrollbar{
+    border: 1px solid black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.engine_hover{
+    background-color: rgba(150, 100, 200, 0.09);
+}
+.benchmark_hover{
+    background-color: rgba(150, 100, 200, 0.09);
+}
+
+.correct_ner{
+    border-bottom: 2px solid black;
+}
+
+.algo_ner{
+    background-color: rgba(150, 100, 200, 0.3);
+}
+
+.benchmark_details_ner_test {
+    border-radius: 10px;
+    background-color: var(--bg1_base);
+    border: none;
+    width: 75%;
+    padding: 15px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#benchmark_results_original_messages{
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+
+    flex-grow: 10;
+}
+
+#benchmark_results_algos_messages{
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+
+    flex-grow: 10;
+}
+
+#benchmark_results_algos_conversations{
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+
+    flex-grow: 10;
+}
+
+#benchmark_result_div_conversations_cutting_main_table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    display: flex;
+    margin: 10px;
+    max-height: 48vh;
+}
+#benchmark_result_div_conversations_cutting_main_table *{
+    border-collapse: collapse;
+}
+
+#benchmark_result_conversations_table_correct_col{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#benchmark_result_conversations_table_algo_col{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#benchmark_result_conversations_table_algo_clickable_title{
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+.little_flex_neutral{
+    display: flex;
+    flex-grow: 0;
+}
+
+.little_border{
+    border: 1px solid black;
+}
+
+.border_collapse{
+    border-collapse: collapse;
+}
+
+.div_msg_original_benchmark_conversations_results{
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.div_msg_algo_benchmark_conversations_results{
+    width: 90%;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.div_button_conv{
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: rgba(150, 100, 200, 0.3);
+    justify-content: center !important;
+}
+.div_button_conv:hover{
+    background-color: rgba(150, 100, 200, 0.2);
+}
+
+#benchmark_result_distances_matrix_table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#benchmark_result_distances_matrix_table *{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.benchmark_result_distances_matrix_table_element{
+    max-width: var(--size_normal) !important;
+    width: var(--size_normal) !important;
+    min-width: var(--size_normal) !important;
+    max-height: var(--size_normal) !important;
+    height: var(--size_normal) !important;
+    min-height: var(--size_normal) !important;
+    overflow: hidden;
+    font-size: var(--font_size_small);
+    padding: 2px;
+}
+
+
+
+.search_result{
+    border-radius: 15px;
+    background-color: var(--bg2_base);
+    width: 85%;
+    border: none;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.search_result:hover{
+    background-color: var(--bg2_hover);
+}
+
+.good_search_result{
+    border: 2px solid yellowgreen;
+}
+

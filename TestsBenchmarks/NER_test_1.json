@@ -1,0 +1,17 @@
+{
+    "type": "NER",
+    "title": "Test de NER 1",
+    "description": "On va avoir des messages, et le but, va être de détecter les entités pour chaque message.",
+    "tests": [
+
+        {
+            "text": "Bonjour, j'ai appelé Jean Claude hier, on a pu discuter du développement de Rainbow hier, on a été bien productif, mais il y a pierre paul dupont qui est venu nous embêter à la fin.",
+            "entities": [
+                [21, "Jean Claude", "PERS"],
+                [76, "Rainbow", "PROD"],
+                [127, "pierre paul dupont", "PERS"]
+            ]
+        }
+
+    ]
+}

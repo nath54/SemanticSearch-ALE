@@ -1,0 +1,22 @@
+{
+    "base_rainbow_instance_save_path": "../SavedImported_RBI/",
+    "models_paths" : "../models/",
+    "search_engine_configs_paths": "../Configs_SearchEngines/",
+    "conversations_engine_configs_paths": "../Configs_ConversationEngines/",
+    "ner_engine_configs_paths": "../Configs_NER_Engines/",
+    "socket_port": 42043,
+    "main_default_engine_config_name": "Embeddings all-MiniLM-L6-v2 with NER Engine and translation",
+    "main_server_nb_threads": 6,
+    "main_server_nb_threads_specifics_for_tasks": {
+        "search": 1,
+        "conversation_cut": 1,
+        "bubble_import": 1,
+        "test_benchmark_with_config": 1,
+        "add_msgs_to_bubble": 1
+    },
+    "socket_max_clients_connected": 5,
+    "translation_cache_json": "../cache/translations",
+    "embedding_cache_dir": "../cache/embeddings/",
+    "NER_dicts_dir": "../Dicts_NER/",
+    "socket_messages_delimiter": "\n\n\n\n\n"
+}

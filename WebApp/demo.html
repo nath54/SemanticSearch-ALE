@@ -1,0 +1,430 @@
+<!--
+
+Ceci est la page de démo pù l'on pourra tester les différentes configurations de moteur de recherche dans des fausses instances Rainbow
+
+Auteur: Nathan Cerisara
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <!-- Paramètres de la page -->
+        <meta charset="utf-8" />
+        <link rel="icon" href="res/logo_ale.svg">
+
+        <!-- Titre de la page -->
+        <title>Demo - Application Web pour le projet de découpage des conversations et de recherche sémantique pour l'application Rainbow à ALE</title>
+
+        <!-- Styles de l'application -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/demo.css">
+
+        <!-- Include google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body onload="update_display();">
+
+        <div id="main_container" class="">
+
+            <div id="main_column_container" class="container col w_100 h_100">
+
+                <!-- Header -->
+                <div id="header" class="container col w_100">
+
+                    <!-- Première ligne de l'header avec le logo et le titre -->
+                    <div id="header_1" class="container row w_100">
+
+                        <!-- Logo + Nom Logo -->
+                        <div id="logo_and_name" class="container row m_l_0 left_align clickable no_select" onclick="go_to_index();">
+
+                            <!-- Logo ALE -->
+                            <div id="logo" class="m_5p center_v">
+
+                                <img class="header_logo_ale" src="res/logo_ale.svg" />
+
+                            </div>
+
+                            <!-- Texte ALE -->
+                            <div id="text_ale" class="col m_t_auto m_b_auto left_align">
+                                <div class="m_0 left_align">
+                                    <label class="m_0 left_align">Alcatel • Lucent</label>
+                                </div>
+                                <div class="m_0 left_align">
+                                    <label class="m_0 left_align">Enterprise</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Titre de la page -->
+                        <div id="page_title" class="m_auto center_v">
+                            <span>
+                                <span class="font_larger clickable" onclick="quit_current_rbi();">Démo</span>
+                                <span id="union_title" class="font_larger"> - </span>
+                                <span id="name_current_rbi" class="font_larger">Nom RBI</span>
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <!-- Seconde ligne de l'header avec la navigation des pages -->
+                    <div id="header_2" class="container row w_100" style="display:none;">
+
+                        <!-- Navigation Recherche -->
+                        <div id="navigation_search" class="navigation_base clickable no_select" onclick="navigation_search();">
+                            <img class="icon_navigation center_v" src="res/logo_search2.svg" />
+                            <span class="font_larger clickable center_v">Recherche</span>
+                        </div>
+
+                        <!-- Navigation Bulles -->
+                        <div id="navigation_bubbles" class="navigation_base clickable no_select" onclick="navigation_bubbles();">
+                            <img class="icon_navigation center_v" src="res/logo_bubble3.svg" />
+                            <span class="font_larger clickable center_v">Bulles</span>
+                        </div>
+
+                        <!-- Navigation Utilisateurs -->
+                        <div id="navigation_users" class="navigation_base clickable no_select" onclick="navigation_users();">
+                            <img class="icon_navigation center_v" src="res/logo_user2.svg" />
+                            <span class="font_larger clickable center_v">Utilisateurs</span>
+                        </div>
+
+                        <!-- Navigation Moteurs de recherche -->
+                        <div id="navigation_engine" class="navigation_base clickable no_select" onclick="navigation_engine();">
+                            <img class="icon_navigation center_v" src="res/logo_config.svg" />
+                            <span class="font_larger clickable center_v">Moteur de Recherche</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page de sélection des RBI -->
+                <div id="select_rbi_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="select_rbi_page_subcontainer">
+
+                        <div>
+                            <h2>Sélectionner un environnement</h2>
+                        </div>
+
+                        <div id="available_rbi_list" class="col m_l_15p v_scroll vh_70">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page de chargement d'une RBI -->
+                <div id="loading_rbi_page" class="demo_app_subpage" style="display: none;">
+                    <div id="loading_rbi_page_subcontainer">
+                        <div class="center_h m_auto">
+                            <h2>Attente de la réception des données d'une instance Rainbow depuis le serveur...</h2>
+                        </div>
+                        <div class="center_h m_auto col">
+                            <span>Bulles : <span id="loading_nb_bubbles">0</span>/<span id="loading_tot_bubbles">0</span></span>
+                            <span>Utilisateurs : <span id="loading_nb_users">0</span>/<span id="loading_tot_users">0</span></span>
+                            <span>Messages : <span id="loading_nb_messages">0</span>/<span id="loading_tot_messages">0</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page de recherche -->
+                <div id="search_page" class="demo_app_subpage" style="display: none;">
+
+                    <!-- Barre de recherche -->
+                    <div id="container_search_input" class="container w_100 center_h m_b_15p">
+
+                        <div id="search_bar_background">
+
+                            <div id="search_bar_layer_1" class="search_bar_layer">
+
+                                <div id="search_bar_button_fake"></div>
+
+                                <!-- Input où l'on va écrire la recherche -->
+                                <input id="search_bar_input" placeholder="Recherche..." onkeypress="on_search_input_key_pressed(event);" />
+
+                                <!-- Option pour choisir l'utilisateur avec lequel on va faire la recherche  -->
+                                <select id="select_user" class="clickable">
+                                    <option value="-1">Choisir un utilisateur</option>
+                                </select>
+
+                            </div>
+
+                            <div id="search_bar_layer_2" class="search_bar_layer">
+
+                                <!-- Animation de la barre de recherche quand la recherche est en cours -->
+                                <div id="search_bar_searching_animation">
+                                    <span id="search_bar_searching_animation_text">Searching...</span>
+
+                                    <!-- Bouton qui va lancer la recherche -->
+                                    <div id="search_bar_button" class="clickable" onclick="search();"></div>
+                                </div>
+
+                                <div id="search_bar_empty_space_animation"></div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Titre du résultat de la recherche -->
+                    <div id="search_result_title" style="display:none;">
+                        <h3>Résultats pour la recherche `<span id="search_result_input" class="font_larger"></span>` avec l'utilisateur `<span id="search_result_user" class="font_larger"></span>` :</h3>
+                    </div>
+
+                    <!-- Résultats de recherche -->
+                    <div id="container_search_results" class="container col v_scroll">
+
+                    </div>
+
+                </div>
+
+                <!-- Page affiche la liste de toutes les bulles -->
+                <div id="bubbles_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="bubbles_page_subcontainer">
+
+                        <div>
+                            <h2>Liste des bulles de cette instance Rainbow</h2>
+                        </div>
+
+                        <div class="row">
+
+                            <div id="import_bubble_button" onclick="go_to_import_bubble_page();">
+                                <img src="res/plus.svg" class="bubble_logo"/>
+                                <span class="m_t_auto m_b_auto m_l_15p">Importer une bulle</span>
+                            </div>
+
+                        </div>
+
+                        <div id="bubbles_list" class="col m_l_15p v_scroll">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page qui affiche le contenu d'une bulle -->
+                <div id="bubble_conversation_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="bubble_conversation_page_subcontainer">
+
+                        <!-- Le header de la conversation, affiche le titre de la bulle sélectionnée -->
+                        <div id="header_bubble_conversation">
+
+                            <span id="current_bubble_name" class="center_h center_v font_larger">Nom de la bulle</span>
+
+                        </div>
+
+                        <div id="main_container_bubble_conversation">
+
+                            <div id="bubble_conversation_messages">
+
+                            </div>
+
+                            <div id="bubble_conversation_users">
+
+                                <div id="bubble_conversation_cut_button">
+
+                                    <button id="button_cut_conversations" onclick="on_cut_conversation_clicked();">Découpe des conversations</button>
+
+                                </div>
+
+                                <div id="bubble_conversation_user_list">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page pour l'importation d'une bulle -->
+                <div id="import_bubble_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="import_bubble_page_subcontainer">
+
+                        <div>
+                            <h2>Importer une bulle</h2>
+                        </div>
+
+                        <div class="row m_b_15p">
+
+                            <span class="center_v">Copier-Coller le texte exporté ci-dessous</span>
+
+                            <button style="box-shadow: var(--ale_purple) 0 0 2px 2px;" class="center_v m_l_15p">Aide</button>
+
+                        </div>
+
+                        <div class="row">
+
+                            <span>Nom de la bulle à importer : </span>
+
+                            <input id="bubble_import_name" placeholder="Nom de la bulle à importer" />
+
+                        </div>
+
+                        <textarea id="bubble_import_text" class="col m_l_15p v_scroll m_15p" style="resize: none; width: 85vw; height: 40vh;"></textarea>
+
+                        <div class="row center_h">
+                            <button class="center_h"style="box-shadow: var(--ale_purple) 0 0 1px 2px;" onclick="send_import_request_to_server();">Importer</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page pour l'importation d'une bulle -->
+                <div id="request_waiting_import_bubble_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="request_waiting_import_bubble_page_subcontainer">
+
+                        <div>
+                            <h2>Importation d'une bulle</h2>
+                        </div>
+
+                        <div class="col">
+
+                            <span class="center_v">Attente de l'execution de la requête...</span>
+
+                            <span class="center_v">Position dans la queue d'attente : <span id="bubble_import_queue_position">/</span> </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page pour l'importation d'une bulle -->
+                <div id="doing_import_bubble_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="doing_import_bubble_page_subcontainer">
+
+                        <div>
+                            <h2>Importation d'une bulle</h2>
+                        </div>
+
+                        <div class="col">
+
+                            <!--  -->
+
+                            <span class="center_h">Traductions + Calcul des Embeddings en cours...</span>
+
+                            <!-- Progress bar -->
+
+                            <div>
+
+                                <div class="progress_bar_background m_15p">
+                                    <div id="bubble_import_progress_bar" class="progress_bar_foreground" style="height: 20px;"></div>
+                                </div>
+
+                                <span class="center_h">Temps restant estimé: <span id="bubble_import_estimated_time_left" class="m_l_5p">0 sec</span></span>
+
+                            </div>
+
+                            <!--  -->
+
+                            <span class="center_h">Détails de la bulle importée : </span>
+                            <span class="center_h">Nombre de messages : <span id="bubble_import_nb_msgs" class="m_l_5p">/</span></span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page qui affiche la liste de tous les utilisateurs -->
+                <div id="users_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="users_page_subcontainer">
+
+                        <div>
+                            <h2>Liste des utilisateurs de cette instance Rainbow</h2>
+                        </div>
+
+                        <div id="users_list" class="col m_l_15p v_scroll">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page qui affiche la liste de tous les utilisateurs -->
+                <div id="engine_config_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="engine_config_page_subcontainer">
+
+                        <div>
+                            <h2>Liste des configurations de moteurs de recherche</h2>
+                        </div>
+
+                        <div id="available_engine_configs_list" class="col m_l_15p v_scroll">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page qui affiche une erreur lors de la connexion au serveur websocket -->
+                <div id="error_connection_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="error_connection_page_subcontainer">
+
+                        <div>
+                            <h2 class="center_h">Erreur lors de la connexion au serveur WebSocket</h2>
+                        </div>
+
+                        <div class="col m_l_15p v_scroll">
+
+                            <p id="error_message" class="center_h">Message d'erreur</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page qui indique à l'utilisateur qu'on attends toujours d'être connecté au serveur -->
+                <div id="connection_loading_page" class="demo_app_subpage">
+
+                    <div id="connection_loading_page_subcontainer">
+
+                        <div>
+                            <h2 class="center_h">Connexion au serveur...</h2>
+                        </div>
+
+                        <div class="col m_l_15p v_scroll">
+
+                            <p class="center_h">Veuillez patienter que cette application web se connecte au serveur.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+    <!-- Scripts -->
+    <script src="js/lib.js" type="text/javascript"></script>
+    <script src="js/general.js" type="text/javascript"></script>
+    <script src="js/demo.js" type="text/javascript"></script>
+    <script src="js/client_websockets.js" type="text/javascript"></script>
+
+</html>

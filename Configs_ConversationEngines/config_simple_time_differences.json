@@ -1,0 +1,1 @@
+{"config_name": "Simple By Time Differences", "algorithms": [{"type": "SimpleTimeDifferences_ConversationAlgorithm", "coef": "1", "treshold_type": "minutes", "treshold_value": "9.257"}]}

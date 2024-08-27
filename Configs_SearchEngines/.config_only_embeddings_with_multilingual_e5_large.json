@@ -1,0 +1,17 @@
+{
+    "config_name": "Only embeddings with multilingual-e5-large",
+    "nb_threads": 1,
+    "max_message_length": 350,
+    "nb_search_results": 30,
+
+    "algorithms": [
+        {
+            "type": "SimpleEmbedding_SearchAlgorithm",
+            "coef": 1.0,
+            "model_name": "intfloat/multilingual-e5-large",
+            "model_type": "xlm_roberta",
+            "batch_size": 16,
+            "use_cuda": 1
+        }
+    ]
+}

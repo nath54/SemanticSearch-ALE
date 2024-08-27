@@ -1,0 +1,18 @@
+{
+    "config_name": "Only embeddings with all-MiniLM-L6-v2 with distance cosine",
+    "nb_threads": 6,
+    "max_message_length": 200,
+    "nb_search_results": 30,
+
+    "algorithms": [
+        {
+            "type": "SimpleEmbedding_SearchAlgorithm",
+            "coef": 1.0,
+            "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+            "model_type": "sentence-transformers",
+            "batch_size": 1,
+            "use_cuda": 0,
+            "distance_function": "cosine"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "config_name": "Clustering Sequentiel",
+
+    "algorithms": [
+        {
+            "type": "ClusteringSeq_ConversationAlgorithm",
+            "coef": 1.0,
+            "search_engine_config_dict": {
+                "config_name": "Embeddings all-MiniLM-L6-v2 with NER Engine and translation",
+                "nb_threads": 6,
+                "max_message_length": 200,
+                "nb_search_results": 30,
+
+                "algorithms": [
+                    {
+                        "type": "SimpleEmbedding_SearchAlgorithm",
+                        "coef": 1.19,
+                        "model_name": "optimum/all-MiniLM-L6-v2",
+                        "model_type": "sentence-transformers",
+                        "batch_size": 1,
+                        "use_cuda": 0,
+                        "model_optimisations": "optimum",
+                        "translate_before": "en",
+                        "translate_method": "easyNMT"
+                    },
+                    {
+                        "type": "SimpleSearchByTime_SearchAlgorithm",
+                        "coef": 2.0
+                    },
+                    {
+                        "type": "SearchByUsers_SearchAlgorithm",
+                        "coef": 0.12
+                    },
+                    {
+                        "type": "SearchWith_NER_Engine_SearchAlgorithm",
+                        "coef": 2.0,
+                        "ner_engine_config_dict":
+
+                            {
+                                "config_name": "SimpleSyntaxicNER",
+
+                                "algorithms": [
+                                    {
+                                        "type": "SimpleSyntaxic_NER_Algorithm",
+                                        "coef": 1.0
+                                    }
+                                ]
+                            }
+                    }
+                ]
+            },
+            "treshold_conversation_distance": 1.5
+        }
+    ]
+}

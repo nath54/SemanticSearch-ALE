@@ -1,0 +1,58 @@
+{
+    "type": "semantic_search",
+    "title": "Test Sémantique en Français qui se concentre sur la NER",
+    "description": "Test de recherche sémantique avec un message qui fait référence à une entitée nommé et/ou à un mot de jargon compliqué. Le dataset sur lequel les recherches se portent (RBI_chatgpt) a été généré par ChatGPT-4o(OpenAI)/Gemini(Google) et préparé/modifié/traité/controllé par Nathan Cerisara.",
+    "rbi_path": "RBI_chatgpt",
+    "ner_dicts": ["dict_ner_chatgpt"],
+    "searchs": [
+
+        {
+            "search_input": "Il faut utiliser un logiciel de suivi des EDT automatisé, méthode agile et d'atteinte des objectifs.",
+            "user_id": 12,
+            "awaited_result_message": [156, 186, 229, 228]
+        },
+
+        {
+            "search_input": "Différence entre les formation en ligne qui certifient",
+            "user_id": 12,
+            "awaited_result_message": 193
+        },
+
+        {
+            "search_input": "Indicateurs clés de performance",
+            "user_id": 12,
+            "awaited_result_message": [162, 195, 210, 232]
+        },
+
+        {
+            "search_input": "Responsabilité sociable des entreprises",
+            "user_id": 12,
+            "awaited_result_message": [169, 173, 181, 182, 203, 216, 239, 241]
+        },
+
+        {
+            "search_input": "site de sondage en ligne gratuit avec sondages personalisables et série de programmes statistiques",
+            "user_id": 12,
+            "awaited_result_message": [234, 235, 238]
+        },
+
+        {
+            "search_input": "Les Réseaux Adversaires Génératifs peuvent génerer des détails très précis",
+            "user_id": 1,
+            "awaited_result_message": 2
+        },
+
+        {
+            "search_input": "Vision Transformer",
+            "user_id": 1,
+            "awaited_result_message": [3, 4, 60, 61, 63]
+        },
+
+        {
+            "search_input": "Detection Transformer, Detectron",
+            "user_id": 1,
+            "awaited_result_message": [4, 61]
+        }
+
+    ]
+}

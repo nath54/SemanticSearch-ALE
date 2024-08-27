@@ -1,0 +1,140 @@
+/*
+Styles spécifiques à des éléments de la page web pour l'optimisation des hyper paramètres des configurations des moteurs pour les différentes tâches.
+
+Auteur: Nathan Cerisara
+*/
+
+
+@keyframes glowing {
+    0% {
+        filter: drop-shadow( 0px 0px 2px var(--ale_purple)) !important;
+        r: 1px;
+    }
+    50% {
+        filter: drop-shadow( 0px 0px 5px var(--ale_purple)) !important;
+        r: 3px;
+    }
+    100% {
+        filter: drop-shadow( 0px 0px 2px var(--ale_purple)) !important;
+        r: 1px;
+    }
+}
+
+.task_select_button{
+    padding: 15px;
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    display: flex;
+    border: 2px solid var(--ale_purple);
+    border-radius: 1vh;
+    box-shadow: var(--ale_purple_medium_transparent) 0 0 2px 2px;
+    cursor: pointer;
+    font-size: var(--font_size_normal);
+    user-select: none;
+}
+.task_select_button:hover{
+    border-radius: 2vh;
+    color: var(--ale_purple);
+    font-size: var(--font_size_larger);
+    box-shadow: var(--ale_purple_medium_transparent) 2px 2px 4px 2px;
+}
+.task_select_button:active{
+    color: var(--ale_purple);
+    font-size: var(--font_size_smaller);
+    box-shadow: var(--ale_purple) 0 0 1px 1px;
+}
+
+
+.benchmark_result_div_container{
+    max-width: 35%;
+    min-height: 5vh;
+}
+.benchmark_result_div_container *{
+    cursor: default;
+}
+
+.benchmark_result_div_name{
+    border:1px solid black;
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: var(--bg2_base);
+}
+.benchmark_result_div_name:hover{
+    border-radius: 15px 0 0 15px;
+    background-color: var(--bg2_hover);
+}
+
+.benchmark_result_div_score{
+    border:1px solid black;
+    border-radius: 0 10px 10px 0;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: var(--bg4_base)
+}
+.benchmark_result_div_score:hover{
+    border-radius: 0 15px 15px 0;
+    background-color: var(--bg4_hover)
+}
+
+
+.very_bad_value {
+    color: red !important;
+}
+
+.bad_value {
+    color: orangered !important;
+}
+
+.acceptable_value {
+    color: orange;
+}
+
+.good_value {
+    color: green;
+}
+
+.very_good_value {
+    color: rgb(0, 190, 0);
+}
+
+.best_value {
+    font-weight: 600;
+}
+
+.graph_animated_point{
+    animation: glowing 2s ease-in-out 0s infinite !important;
+}
+
+.graph_svg{
+    min-height: 30vh;
+    height: 30vh;
+    max-height: 30vh;
+}
+
+.svg_graph_point{
+}
+
+.svg_graph_point text{
+    visibility: hidden;
+}
+.svg_graph_point:hover text{
+    visibility: visible;
+}
+
+.hpo_algo_opti_result_textarea{
+    border: 1px solid black;
+    min-width: 60%;
+    width: 75%;
+    max-width: 85%;
+    min-height: 10vh;
+    height: 20vh;
+    max-height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}

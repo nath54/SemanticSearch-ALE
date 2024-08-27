@@ -1,0 +1,28 @@
+/*
+Styles spécifiques à des éléments de la page web index
+
+Auteur: Nathan Cerisara
+*/
+
+
+/* Logo principal ALE affiché en gros */
+.main_logo_ale{
+    width: var(--size_extra_large);
+    height: var(--size_extra_large);
+    margin: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+/* Icone Photo de Profil de l'auteur du projet */
+.img_icon_author{
+    width: var(--size_large);
+    height: var(--size_large);
+    margin: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: var(--size_large);
+    background-image: url("../res/photo_id.png");
+}

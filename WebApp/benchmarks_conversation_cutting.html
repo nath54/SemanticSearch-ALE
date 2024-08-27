@@ -1,0 +1,392 @@
+<!--
+
+Ceci est la page de benchmarks où l'on pourra voir tous les tests de performance et de vitesse des différentes configurations de moteur de recherche.
+
+Auteur: Nathan Cerisara
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <!-- Paramètres de la page -->
+        <meta charset="utf-8" />
+        <link rel="icon" href="res/logo_ale.svg">
+
+        <!-- Titre de la page -->
+        <title>Benchmarks de découpe des conversations - Application Web pour le projet de découpage des conversations et de recherche sémantique pour l'application Rainbow à ALE</title>
+
+        <!-- Styles de l'application -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/benchmarks.css">
+
+        <!-- Include google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body onload="on_page_loaded();">
+
+        <div id="main_container" class="col">
+
+            <!-- header avec le logo et le titre -->
+            <div id="header" class="container row w_100">
+
+                <!-- Logo + Nom Logo -->
+                <div id="logo_and_name" class="container row m_l_0 left_align clickable no_select" onclick="go_to_index();">
+
+                    <!-- Logo ALE -->
+                    <div id="logo" class="m_5p center_v">
+
+                        <img class="header_logo_ale" src="res/logo_ale.svg" />
+
+                    </div>
+
+                    <!-- Texte ALE -->
+                    <div id="text_ale" class="col m_t_auto m_b_auto left_align">
+                        <div class="m_0 left_align">
+                            <label class="m_0 left_align">Alcatel • Lucent</label>
+                        </div>
+                        <div class="m_0 left_align">
+                            <label class="m_0 left_align">Enterprise</label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Titre de la page -->
+                <div id="page_title" class="m_auto center_v">
+                    <span>
+                        <span id="page_title" class="font_larger clickable" onclick="on_base_page_title_clicked();">Benchmarks de découpe des conversations </span>
+                        <span> - </span>
+                        <span id="page_subtitle">Nom page</span>
+                    </span>
+                </div>
+
+            </div>
+
+            <!-- page de chargement -->
+            <div id="loading_page" class="benchmark_subpage container col w_100 flexgrow_1">
+
+                <span class="container center_h center_v m_auto">Chargement...</span>
+
+            </div>
+
+            <!-- page d'erreur -->
+            <div id="error_page" class="benchmark_subpage container col w_100 flexgrow_1" style="display:none;">
+
+                <span class="container center_h center_v m_auto" id="error_message">Erreur</span>
+
+            </div>
+
+            <!-- page de base -->
+            <div id="base_page" class="benchmark_subpage container col w_100 flexgrow_1" style="display:none;">
+
+                <!-- Ligne machine support -->
+                <div class="row center_h flexgrow_2">
+
+                    <span class="center_v m_r_5p">Machine Support : </span>
+
+                    <select id="select_platform" class="center_v" onchange="on_current_platform_change(this.value);"></select>
+
+                </div>
+
+
+                <!-- Tableau du benchmark -->
+                <div id="container_benchmark_table" class="container col h_auto flexgrow_10">
+
+                    <table id="benchmark_table">
+
+                        <thead id="benchmark_table_header">
+
+                            <tr id="benchmark_table_header_row1">
+                                <th colspan="1" class="table_engine_name"></th>
+                                <th colspan="1" class="table_engine_avg">Moyenne</th>
+                                <th colspan="2" class="table_clean table_benchmark_name">Benchmark1</th>
+                                <th colspan="2" class="table_clean table_benchmark_name">Benchmark2</th>
+                                <th colspan="2" class="table_clean table_benchmark_name">Benchmark3</th>
+                            </tr>
+
+                            <tr id="benchmark_table_header_row2">
+                                <th class="table_engine_name">
+                                    <span id="engine_name_sort_button" class="sort_arrow sort_arrow_descending clickable" onclick="sort_by_engine_name();">\/</span>
+                                    nom
+                                </th>
+
+                                <th class="table_engine_avg">
+                                    <span id="avg_score_sort_button" class="sort_arrow clickable" onclick="sort_by_avg_score();">\/</span>
+                                    score
+                                </th>
+
+                                <th class="table_clean table_engine_score">
+                                    <span class="sort_arrow font_small clickable">\/</span>
+                                    score
+                                </th>
+
+                                <th class="table_clean table_engine_speed">
+                                    <span class="sort_arrow font_small clickable">\/</span>
+                                    vitesse
+                                </th>
+
+                                <th class="table_clean table_engine_score">
+                                    <span class="sort_arrow font_small clickable">\/</span>
+                                    score
+                                </th>
+
+                                <th class="table_clean table_engine_speed">
+                                    <span class="sort_arrow font_small clickable">\/</span>
+                                    vitesse
+                                </th>
+
+                                <th class="table_clean table_engine_score">
+                                    <span class="sort_arrow font_small clickable">\/</span>
+                                    score
+                                </th>
+
+                                <th class="table_clean table_engine_speed">
+                                    <span class="sort_arrow font_small clickable">\/</span>
+                                    vitesse
+                                </th>
+                            </tr>
+
+                        </thead>
+
+                        <tbody id="benchmark_table_body">
+
+                            <!-- Ligne exemple moteur 1 -->
+                            <tr class="engine_result_row table_clean">
+
+                                <td class="table_engine_name">Moteur 1</td>
+
+                                <td class="table_engine_avg">0.834</td>
+
+                                <td class="table_engine_score">0.344</td>
+
+                                <td class="table_engine_speed">24.34</td>
+
+                                <td class="table_engine_score">0.953</td>
+
+                                <td class="table_engine_speed">23.23</td>
+
+                                <td class="table_engine_score">0.8973</td>
+
+                                <td class="table_engine_speed">40.23</td>
+
+                            </tr>
+
+                            <!-- Ligne exemple moteur 2 -->
+                            <tr class="engine_result_row table_clean">
+
+                                <td class="table_engine_name">Moteur 2</td>
+
+                                <td class="table_engine_avg">0.834</td>
+
+                                <td class="table_engine_score">0.344</td>
+
+                                <td class="table_engine_speed">24.34</td>
+
+                                <td class="table_engine_score">0.953</td>
+
+                                <td class="table_engine_speed">23.23</td>
+
+                                <td class="table_engine_score">0.8973</td>
+
+                                <td class="table_engine_speed">40.23</td>
+
+                            </tr>
+
+                            <!-- Ligne exemple moteur 3 -->
+                            <tr class="engine_result_row table_clean">
+
+                                <td class="table_engine_name">Moteur 3</td>
+
+                                <td class="table_engine_avg">0.834</td>
+
+                                <td class="table_engine_score">0.344</td>
+
+                                <td class="table_engine_speed">24.34</td>
+
+                                <td class="table_engine_score">0.953</td>
+
+                                <td class="table_engine_speed">23.23</td>
+
+                                <td class="table_engine_score">0.8973</td>
+
+                                <td class="table_engine_speed">40.23</td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+            <!-- page pour afficher les détails d'une configuration de moteur de découpe de conversation -->
+            <div id="engine_config_page" class="benchmark_subpage container col w_100 flexgrow_1" style="display:none;">
+
+                <div class="container col center_v m_auto m_t_15p">
+
+                    <div class="m_t_15p">
+                        <h3 class="left_align m_15p">Détails d'une configuration de moteur de découpe de conversations : </h3>
+                    </div>
+
+                    <div class="container col m_15p">
+
+                        <span class="left_align m_5p"><b>• Machine support sélectionnée : </b><span id="benchmark_engine_config_support_platform">___</span></span>
+
+                        <span class="left_align m_5p"><b>• Nom de la configuration du moteur de découpe de conversations : </b><span id="benchmark_engine_config_config_name">___</span></span>
+
+
+                        <span class="left_align m_5p"><b>• Description : </b></span>
+
+                        <div class="container m_15p left_align row">
+                            <span id="benchmark_engine_config_description">___</span>
+                        </div>
+
+                        <span class="left_align m_5p"><b>• Algorithmes de découpe de conversations :</b></span>
+
+                        <div id="benchmark_engine_config_algos" class="container col"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- page pour afficher les détails d'un benchmark -->
+            <div id="benchmark_page" class="benchmark_subpage container col w_100 h_90 m_auto m_t_5p" style="display:none;">
+
+                <div class="container col center_v m_auto m_t_15p h_95 h_scroll">
+
+                    <div class="container m_t_15p flexgrow_0">
+                        <h3 class="left_align m_15p">Détails d'un benchmark : </h3>
+                    </div>
+
+                    <div class="container col m_15p h_90">
+
+                        <span class="left_align m_5p row"><b>• Titre du benchmark : </b><span id="benchmark_details_title">___</span></span>
+
+                        <span class="left_align m_5p row"><b>• Description du benchmark : </b></span>
+
+                        <div class="container m_15p left_align row">
+                            <span id="benchmark_details_description">___</span>
+                        </div>
+
+                        <span class="left_align m_5p row"><b>• Fichier RBI pour ce benchmark : </b><span id="benchmark_details_rbi">___</span></span>
+
+                        <span class="left_align m_5p row"><b>• Nombre de recherches : </b><span id="benchmark_details_nb_searchs">___</span></span>
+
+                        <span class="left_align m_5p row"><b>• Recherches : </b></span>
+
+                        <div id="benchmark_detail_conversation_messages" class="container col w_100 h_scroll flexgrow_1 p_15p"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- page pour afficher les détails d'un résultat de moteur de recherche -->
+            <div id="benchmark_result_page" class="benchmark_subpage container col w_100 flexgrow_1" style="display:none;">
+
+                <div class="container col center_v m_auto m_t_15p h_95" style="flex-shrink: 1;">
+
+                    <div class="m_t_15p">
+                        <h3 class="left_align m_15p">Résultats de benchmark : </h3>
+                    </div>
+
+                    <div class="container col m_15p flexgrow_100 h_scroll" style="flex-shrink: 1;">
+
+                        <div class="little_flex_neutral">
+                            <span class="left_align m_5p"><b>• Machine Support : </b><span id="benchmark_result_support_platform">___</span></span>
+                        </div>
+
+                        <div class="little_flex_neutral">
+                            <span class="left_align m_5p"><b>• Benchmark : </b><span id="benchmark_result_benchmark_name">___</span></span>
+                        </div>
+
+                        <div class="little_flex_neutral">
+                            <span class="left_align m_5p"><b>• Moteur de recherche : </b><span id="benchmark_result_engine_name">___</span></span>
+                        </div>
+
+                        <div class="little_flex_neutral">
+                            <span class="left_align m_5p"><b>• Score : </b><span id="benchmark_result_score">___</span></span>
+                        </div>
+
+                        <div class="little_flex_neutral">
+                            <span class="left_align m_5p"><b>• Temps total du benchmark : </b><span id="benchmark_result_total_time">___</span></span>
+                        </div>
+
+                        <div class="little_flex_neutral">
+                            <span class="left_align m_5p"><b>• Scores absolus pour chaque recherche :</b></span>
+                        </div>
+
+                        <div id="benchmark_result_div_conversations_cutting_main_table" class="row">
+
+                            <div id="benchmark_result_conversations_table_correct_col" class="col">
+
+                                <div class="row">
+                                    <span>Messages originaux</span>
+                                </div>
+
+                                <div id="benchmark_results_original_messages">
+
+                                </div>
+
+                            </div>
+
+                            <div id="benchmark_result_conversations_table_algo_col" class="col">
+
+                                <div id="benchmark_result_conversations_table_algo_clickable_title" class="clickable row">
+                                    <span>Liste des conversations résultats</span>
+                                </div>
+
+                                <div id="current_result_conversation_name_div" class="row" style="display:none;">
+                                    <span id="current_result_conversation_name">Conversation 1</span>
+                                </div>
+
+                                <div id="benchmark_results_algos_conversations">
+
+                                </div>
+
+                                <div id="benchmark_results_algos_messages" style="display:none;">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div id="benchmark_result_distances_matrix_div" class="container col m_15p p_15p" style="display:none; max-height: 50vh; max-width: 80vw;">
+
+                            <span class="left_align m_5p row"><b>• Matrice de distances entre les messages : </b></span>
+
+                            <div class="h_scroll v_scroll" style="max-height: 49vh; max-width: 79vw;">
+
+                                <table id="benchmark_result_distances_matrix_table"></table>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+    <!-- Scripts -->
+    <script src="js/lib.js" type="text/javascript"></script>
+    <script src="js/general.js" type="text/javascript"></script>
+    <script src="data_benchmarks/benchmark_results.js" type="text/javascript"></script>
+    <script src="js/benchmarks_conversation_cutting.js" type="text/javascript"></script>
+
+</html>

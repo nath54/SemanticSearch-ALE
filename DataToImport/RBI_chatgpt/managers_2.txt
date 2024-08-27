@@ -1,0 +1,281 @@
+Laura Dupuis Monday, January 16, 2023 09:15 AM
+Bonjour à tous, comme convenu, nous allons discuter des nouvelles politiques d'entreprise. Pour commencer, parlons de la flexibilité horaire, qu'en pensez-vous ?
+
+Marc Leclerc Monday, January 16, 2023 09:18 AM
+Salut Laura, salut tout le monde, la flexibilité horaire pourrait améliorer la satisfaction au travail. Mais il faudrait prévoir un suivi rigoureux des heures travaillées pour éviter les abus.
+
+Sophie Lemaitre Monday, January 16, 2023 09:20 AM
+Bonjour, je suis d'accord avec Marc, et j'ajouterais qu'on pourrait utiliser des outils comme le logiciel de gestion de temps JIRA ou autre pour automatiser ce suivi.
+
+Olivier Morel Monday, January 16, 2023 09:22 AM
+Oui, le logiciel JIRA est déjà intégré dans nos systèmes. Cependant, il faudra penser à une formation pour tous ceux qui ne sont pas encore familiers avec cet outil.
+
+Chloé Martin Monday, January 16, 2023 09:25 AM
+Bonjour équipe, en ce qui concerne les politiques de télétravail, quelles sont vos suggestions ?
+
+Marc Leclerc Monday, January 16, 2023 09:27 AM
+Pour le télétravail, je propose qu'on instaure un minimum de deux jours au bureau pour maintenir une cohésion d'équipe forte.
+
+Sophie Lemaitre Monday, January 16, 2023 09:30 AM
+Une bonne idée, Marc. Cependant, il faudra s'assurer que chaque département peut adapter cette règle selon ses besoins spécifiques.
+
+Laura Dupuis Monday, January 16, 2023 09:33 AM
+Parfait, et que pensez-vous d'une prime de performance trimestrielle pour encourager le dépassement des objectifs ?
+
+Olivier Morel Monday, January 16, 2023 09:35 AM
+Les primes de performance sont intéressantes mais attention aux KPIs choisis. Ils doivent être SMART (Spécifiques, Mesurables, Atteignables, Réalistes, Temporellement définis).
+
+Chloé Martin Monday, January 16, 2023 09:38 AM
+Oui, et peut-être envisager aussi une partie basée sur des feedbacks anonymes des collègues pour s'assurer d'une évaluation juste et complète.
+
+Sophie Lemaitre Monday, January 16, 2023 09:40 AM
+Excellente idée Chloé, mais comment garantir que les feedbacks restent constructifs et non pas biaisés par des conflits internes ?
+
+Marc Leclerc Monday, January 16, 2023 09:42 AM
+Il faudrait peut-être passer par une plateforme tierce pour anonymiser et traiter les feedbacks de manière neutre.
+
+Laura Dupuis Monday, January 16, 2023 09:44 AM
+Je prends note, nous en discuterons avec le département RH pour trouver la meilleure solution. Passons à la question des formations continues, des idées ?
+
+Chloé Martin Monday, January 16, 2023 09:46 AM
+On pourrait peut-être envisager des budgets spécifiques par employé pour des formations certifiantes en ligne sur des plateformes comme Coursera ou LinkedIn Learning.
+
+Olivier Morel Monday, January 16, 2023 09:49 AM
+Super idée, Chloé. Et pourquoi ne pas encourager aussi des partages internes de connaissances, avec des sessions de type "Lunch & Learn" ?
+
+Sophie Lemaitre Monday, January 16, 2023 09:51 AM
+Oui, et cela permettrait de renforcer notre culture d'entreprise. En parlant de culture, avez-vous réfléchi aux initiatives RSE pour l'année prochaine ?
+
+Marc Leclerc Monday, January 16, 2023 09:53 AM
+Effectivement, nous pourrions organiser plus de journées de bénévolat et lancer des campagnes de sensibilisation internes sur les économies d'énergie et le tri sélectif.
+
+Laura Dupuis Monday, January 16, 2023 09:55 AM
+C'est noté, nous pousserons ces propositions auprès de la direction. Nous allons devoir conclure pour aujourd'hui. Reprenons ces discussions jeudi prochain. Merci à tous.
+
+Marc Leclerc Thursday, January 19, 2023 10:00 AM
+Salut à tous, revenons sur notre discussion précédente. Laura, tu as des retours de la direction ?
+
+Laura Dupuis Thursday, January 19, 2023 10:05 AM
+Oui, Marc. La direction est favorable aux primes de performance et à la flexibilité horaire. En revanche, ils veulent approfondir les aspects du télétravail et des initiatives RSE.
+
+Sophie Lemaitre Thursday, January 19, 2023 10:10 AM
+Ça sonne bien. En attendant, je pense que nous devrions commencer à planifier les formations continues. Qui se charge de contacter les plateformes de formation en ligne ?
+
+Olivier Morel Thursday, January 19, 2023 10:15 AM
+Je peux m'en charger, Sophie. Je vais contacter Coursera et LinkedIn Learning pour voir leurs offres disponibles pour les entreprises.
+
+Chloé Martin Thursday, January 19, 2023 10:20 AM
+Parfait Olivier, tiens-nous au courant. En parlant de formations, peut-être prévoir un programme d'intégration pour les nouveaux arrivants ?
+
+Marc Leclerc Thursday, January 19, 2023 10:25 AM
+Excellente idée, Chloé. Un bon programme d'onboarding est crucial pour une intégration réussie. Sophie, tu as déjà travaillé sur quelque chose de semblable ?
+
+Sophie Lemaitre Thursday, January 19, 2023 10:30 AM
+Oui, j'avais mis en place un starter pack dans mon ancienne entreprise avec un mentor désigné pour chaque nouveau collaborateur. Ça pourrait être une bonne base.
+
+Laura Dupuis Thursday, January 19, 2023 10:35 AM
+Très bien, Sophie. Nous prendrons cette base et l'adapterons à notre entreprise. Merci à tous pour votre implication. Suite et fin de cette discussion la semaine prochaine.
+
+Chloé Martin Monday, January 23, 2023 09:00 AM
+Bonjour tout le monde, j'espère que vous avez passé un bon week-end. Prêts à finaliser nos politiques d'entreprise ?
+
+Marc Leclerc Monday, January 23, 2023 09:05 AM
+Bonjour Chloé, oui, d'accord pour finaliser. On pourrait commencer par les initiatives RSE qu'on devait approfondir ?
+
+Laura Dupuis Monday, January 23, 2023 09:08 AM
+Oui, la direction veut que nos initiatives RSE aient un impact direct et mesurable. Peut-être des partenariats avec des ONG locales pour des projets spécifiques ?
+
+Olivier Morel Monday, January 23, 2023 09:10 AM
+Ou sinon, organiser des "Green Days" où nous plantons des arbres ou nettoyons des parcs locaux. Il faut des actions visibles.
+
+Sophie Lemaitre Monday, January 23, 2023 09:12 AM
+Nous pourrions aussi sensibiliser les employés avec des challenges écologiques, comme "1 mois sans plastique" ou "journée sans voiture".
+
+Chloé Martin Monday, January 23, 2023 09:15 AM
+Toutes de bonnes idées. Concernant la flexibilité horaire, nous avons des retours précis de la direction ?
+
+Laura Dupuis Monday, January 23, 2023 09:18 AM
+Oui, ils sont ouverts mais insistent sur le suivi avec des outils comme JIRA et des rapports mensuels pour s'assurer que les objectifs sont atteints.
+
+Marc Leclerc Monday, January 23, 2023 09:20 AM
+Et qu'en est-il du télétravail ? Deux jours au bureau, c'est validé ?
+
+Laura Dupuis Monday, January 23, 2023 09:23 AM
+Ils hésitent encore. Ils voudraient une période de test de trois mois avant de prendre une décision définitive.
+
+Olivier Morel Monday, January 23, 2023 09:26 AM
+Ça me semble raisonnable. Sophie, sur les feedbacks anonymes des primes de performance, as-tu des solutions pour garantir l'objectivité ?
+
+Sophie Lemaitre Monday, January 23, 2023 09:30 AM
+Une plateforme tierce pourrait être utilisée, et les feedbacks seraient ensuite vérifiés par un comité de revue interne pour éviter tout biais.
+
+Chloé Martin Monday, January 23, 2023 09:33 AM
+C'est une très bonne idée. Laura, tu peux en discuter avec le département RH ?
+
+Laura Dupuis Monday, January 23, 2023 09:35 AM
+Bien sûr, je leur en parlerai aujourd'hui même. Olivier, des nouvelles des plateformes de formation ?
+
+Olivier Morel Monday, January 23, 2023 09:38 AM
+Oui, Coursera propose des packages corporatifs très intéressants. LinkedIn Learning est flexible aussi et propose des formations sur mesure.
+
+Sophie Lemaitre Monday, January 23, 2023 09:40 AM
+Excellent, Olivier. On pourra alors avancer sur le budget et le planning. À propos du télétravail, pendant la période de test, nous devrions avoir des métriques définies pour l'évaluation.
+
+Laura Dupuis Monday, January 23, 2023 09:42 AM
+Tout à fait. Des suggestions de KPIs ?
+
+Marc Leclerc Monday, January 23, 2023 09:45 AM
+Nombre d'objectifs atteints, feedback des équipes, et perhaps engagement sur les outils de visio comme Teams ou Zoom.
+
+Chloé Martin Monday, January 23, 2023 09:48 AM
+Ajoutons aussi la motivation et la satisfaction du travail mesurées par des sondages internes mensuels.
+
+Laura Dupuis Monday, January 23, 2023 09:50 AM
+Parfait. Je compile tout ça et envoie un compte-rendu détaillé à la direction. Merci à tous pour vos contributions. À bientôt pour les prochaines étapes.
+
+Marc Leclerc Monday, January 23, 2023 09:52 AM
+Merci Laura, bonne journée à tous.
+
+Sophie Lemaitre Monday, January 23, 2023 09:54 AM
+Bonne journée !
+
+Olivier Morel Monday, January 23, 2023 09:55 AM
+À bientôt !
+
+Chloé Martin Monday, January 23, 2023 09:56 AM
+Bonne journée, à plus tard.
+
+Laura Dupuis Wednesday, January 25, 2023 10:00 AM
+Bonjour à tous, nous avons reçu des retours positifs de la direction sur les points discutés. Les formations continues et les initiatives RSE sont validés.
+
+Marc Leclerc Wednesday, January 25, 2023 10:05 AM
+Bonjour Laura, c'est une bonne nouvelle. Concernant les primes de performance, quelles sont les prochaines étapes ?
+
+Sophie Lemaitre Wednesday, January 25, 2023 10:08 AM
+Nous devons formaliser un modèle de feedbacks anonymes et choisir la plateforme tierce. Avez-vous de nouvelles suggestions ?
+
+Chloé Martin Wednesday, January 25, 2023 10:12 AM
+J'ai entendu parler de Peopulse et de 360° Feedback. Ce sont des plateformes réputées pour la gestion de feedbacks et évaluations.
+
+Olivier Morel Wednesday, January 25, 2023 10:15 AM
+Peopulse peut aussi s'intégrer avec nos systèmes actuels pour les retours anonymes. On pourrait les contacter pour une démonstration ?
+
+Laura Dupuis Wednesday, January 25, 2023 10:18 AM
+C'est une bonne idée. Sophie, peux-tu te charger de contacter Peopulse et organiser une démo ?
+
+Sophie Lemaitre Wednesday, January 25, 2023 10:20 AM
+Bien sûr, je m'en occupe. Qu'en est-il du télétravail ? La direction a-t-elle approuvé la période de test ?
+
+Laura Dupuis Wednesday, January 25, 2023 10:23 AM
+Oui, c'est approuvé pour une période de trois mois à partir de février. Nous devrons suivre les KPIs définis et présenter un rapport à la fin de la période.
+
+Marc Leclerc Wednesday, January 25, 2023 10:25 AM
+Parfait, et pour les formations continues, le budget a-t-il été alloué ?
+
+Chloé Martin Wednesday, January 25, 2023 10:28 AM
+Oui, la direction a alloué un budget spécifique par employé. Olivier, tu peux commencer les démarches avec Coursera et LinkedIn Learning.
+
+Olivier Morel Wednesday, January 25, 2023 10:30 AM
+C'est noté, je lancerai les inscriptions dès aujourd'hui. Nous devrions aussi informer les employés pour qu'ils choisissent leurs formations.
+
+Laura Dupuis Wednesday, January 25, 2023 10:33 AM
+Oui, il faudra envoyer un communiqué interne cette semaine. Chloé, tu peux t'en charger ?
+
+Chloé Martin Wednesday, January 25, 2023 10:35 AM
+Bien sûr, je rédige le communiqué et le ferai valider par Laura avant envoi.
+
+Sophie Lemaitre Wednesday, January 25, 2023 10:37 AM
+En attendant, pour les initiatives RSE, on devrait constituer un comité volontaire pour organiser les événements.
+
+Marc Leclerc Wednesday, January 25, 2023 10:40 AM
+Cela semble être la meilleure approche. Les intéressés seraient plus engagés et cela garantirait le succès des initiatives.
+
+Olivier Morel Wednesday, January 25, 2023 10:42 AM
+Je suis partant pour faire partie du comité. Qui d'autre veut se joindre ?
+
+Laura Dupuis Wednesday, January 25, 2023 10:45 AM
+Je suis également intéressée. Sophie ?
+
+Sophie Lemaitre Wednesday, January 25, 2023 10:47 AM
+Comptons-moi aussi dedans. Il suffit de lancer un appel à volontaires auprès de tous les collaborateurs.
+
+Marc Leclerc Wednesday, January 25, 2023 10:50 AM
+Je rédigerai l'email et l'enverrai cette après-midi. Voilà, je crois que nous avons bien avancé. Merci à tous pour vos contributions.
+
+Chloé Martin Wednesday, January 25, 2023 10:52 AM
+Merci Marc, bonne journée à tous.
+
+Olivier Morel Wednesday, January 25, 2023 10:54 AM
+Bonne journée.
+
+Sophie Lemaitre Wednesday, January 25, 2023 10:55 AM
+À bientôt !
+
+Laura Dupuis Monday, January 30, 2023 09:00 AM
+Bonjour à tous, j'espère que votre week-end fut agréable. Aujourd'hui, nous devrions aborder les détails opérationnels des nouvelles politiques approuvées.
+
+Marc Leclerc Monday, January 30, 2023 09:05 AM
+Bonjour Laura, bonjour à tous. Je suis d'accord. Pourrions-nous commencer par les formations continues et voir comment nous allons les mettre en œuvre concrètement ?
+
+Olivier Morel Monday, January 30, 2023 09:08 AM
+Salut Marc, j'ai eu des retours de Coursera et LinkedIn Learning. Ils peuvent configurer des comptes pour chaque employé avec des parcours de formation personnalisés.
+
+Chloé Martin Monday, January 30, 2023 09:10 AM
+Parfait. Il faudra aussi suivre les progrès et les certifications obtenues par chaque employé. JIRA ou Trello pourraient être utilisés pour cette gestion.
+
+Sophie Lemaitre Monday, January 30, 2023 09:12 AM
+Oui, Trello serait adapté. Facile d'intégrer des tableaux pour chaque département et ainsi suivre les progrès en temps réel.
+
+Laura Dupuis Monday, January 30, 2023 09:15 AM
+Super. Olivier, tu peux te charger de créer les tableaux Trello et y inclure les parcours de formation dès que les comptes seront configurés ?
+
+Olivier Morel Monday, January 30, 2023 09:18 AM
+Je m'en occupe. Je devrais pouvoir avoir tout prêt d'ici la fin de la semaine.
+
+Marc Leclerc Monday, January 30, 2023 09:20 AM
+Passons au télétravail alors. Laura, tu mentionnais un suivi des KPIs pendant la période de test. Peux-tu détailler les métriques que nous allons utiliser ?
+
+Laura Dupuis Monday, January 30, 2023 09:23 AM
+Nous allons surveiller l'atteinte des objectifs individuels, les feedbacks d'équipe, l'engagement sur les outils de visio et les niveaux de satisfaction via des sondages mensuels.
+
+Chloé Martin Monday, January 30, 2023 09:25 AM
+Il faudra s'assurer que les sondages restent anonymes pour obtenir des retours sincères. Peut-être utiliser Google Forms ou SurveyMonkey ?
+
+Sophie Lemaitre Monday, January 30, 2023 09:28 AM
+SurveyMonkey semble idéal. Il offre des fonctionnalités avancées et une meilleure sécurité pour les données anonymes.
+
+Marc Leclerc Monday, January 30, 2023 09:30 AM
+Excellente idée. Nous devrons aussi créer un planning mensuel pour les deux jours au bureau par semaine, afin d'éviter une surcharge les mêmes jours.
+
+Laura Dupuis Monday, January 30, 2023 09:33 AM
+Oui, nous pourrons utiliser Doodle pour planifier cette rotation hebdomadaire et assurer une répartition équitable.
+
+Olivier Morel Monday, January 30, 2023 09:35 AM
+Je veux bien m'occuper de la configuration de Doodle et des sondages SurveyMonkey. Je vous enverrai les liens une fois prêts.
+
+Sophie Lemaitre Monday, January 30, 2023 09:38 AM
+Parfait, on est bien alignés. Pour les initiatives RSE, avons-nous des volontaires suite à l'email de Marc ?
+
+Laura Dupuis Monday, January 30, 2023 09:40 AM
+Oui, une dizaine de personnes se sont manifestées. Nous devrions organiser une première réunion cette semaine pour structurer notre plan d'action.
+
+Chloé Martin Monday, January 30, 2023 09:43 AM
+Génial, je pense qu'il est important d'intégrer des objectifs clairs et des timelines dès le début. Pourrions-nous envisager une roadmap de nos initiatives RSE ?
+
+Marc Leclerc Monday, January 30, 2023 09:45 AM
+Bonne idée. Je vais organiser cette réunion et proposer une première ébauche de roadmap.
+
+Laura Dupuis Monday, January 30, 2023 09:48 AM
+Très bien. Nous avons bien avancé ce matin. Continuons de travailler ensemble pour assurer le succès de ces nouvelles politiques. Merci à tous.
+
+Olivier Morel Monday, January 30, 2023 09:50 AM
+Merci Laura, bonne journée à tous.
+
+Sophie Lemaitre Monday, January 30, 2023 09:52 AM
+Bonne journée !
+
+Chloé Martin Monday, January 30, 2023 09:54 AM
+Bonne journée, à plus tard.
+
+Marc Leclerc Monday, January 30, 2023 09:55 AM
+À plus tard.

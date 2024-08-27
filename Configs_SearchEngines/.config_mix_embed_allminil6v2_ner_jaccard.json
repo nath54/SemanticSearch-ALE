@@ -1,0 +1,21 @@
+{
+    "config_name": "Mix of Embedding with AllMini L6 v2 (1.0) - NER Jaccard (0.2)",
+    "nb_threads": 1,
+    "max_message_length": 200,
+    "nb_search_results": 30,
+
+    "algorithms": [
+        {
+            "type": "SimpleEmbedding_SearchAlgorithm",
+            "coef": 1.0,
+            "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+            "model_type": "sentence-transformers",
+            "batch_size": 1,
+            "use_cuda": 0
+        },
+        {
+            "type": "SimpleDictJaccard_NER_SearchAlgorithm",
+            "coef": 0.2
+        }
+    ]
+}

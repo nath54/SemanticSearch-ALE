@@ -1,0 +1,92 @@
+0_Repas Monday, January 1, 2024 00:00 AM
+Ah, j'ai bien mangé ce midi ! Le repas était très bon, notamment le steak au poivre. Merci beaucoup pour l'invitation, Emilie!
+
+1_Randonnée Monday, January 1, 2024 00:00 AM
+Cette randonnée était très difficile, j'ai failli me tordre la cheville une centaine de fois au moins!
+
+2_Critique_culinaire Monday, January 1, 2024 00:00 AM
+Margerite, tes gateaux étaient très secs.
+
+3_Dette Monday, January 1, 2024 00:00 AM
+Vous me devez tous 20€ pour la soirée d'hier, d'ailleurs, vous êtes tous bien rentrés?
+
+4_Consommation Monday, January 1, 2024 00:00 AM
+Je possède des thunes, je suis à l'aise habituellement. Et du coup j'achète des trucs, et les gens voient que j'ai des trucs, et ils se disent, moi aussi j'ai envie d'acheter des trucs.
+
+5_Technologie Monday, January 1, 2024 00:00 AM
+La nouvelle mise à jour de mon téléphone a considérablement amélioré sa performance et la durée de vie de la batterie.
+
+6_Sport Monday, January 1, 2024 00:00 AM
+Le match de football hier soir était intense, l'équipe locale a marqué le but décisif dans les dernières minutes.
+
+7_Voyage Monday, January 1, 2024 00:00 AM
+Mon voyage à Tokyo était incroyable, j'ai visité des temples anciens et dégusté des plats délicieux.
+
+8_Études Monday, January 1, 2024 00:00 AM
+Les examens de cette année étaient particulièrement difficiles, j'ai dû étudier tard chaque nuit pour m'en sortir.
+
+9_Météo Monday, January 1, 2024 00:00 AM
+La météo aujourd'hui est magnifique, un ciel bleu sans nuages et une température agréable.
+
+10_Santé Monday, January 1, 2024 00:00 AM
+Depuis que je fais de l'exercice régulièrement, je me sens beaucoup plus énergique et en meilleure santé.
+
+11_Musique Monday, January 1, 2024 00:00 AM
+Le concert de jazz hier soir était époustouflant, les musiciens étaient incroyablement talentueux.
+
+12_Cinéma Monday, January 1, 2024 00:00 AM
+Le dernier film que j'ai vu au cinéma m'a vraiment ému, l'histoire était poignante et les acteurs excellents.
+
+13_Lecture Monday, January 1, 2024 00:00 AM
+Le livre que je lis en ce moment est captivant, je n'arrive pas à le poser.
+
+14_Animaux Monday, January 1, 2024 00:00 AM
+Mon chien a appris un nouveau tour hier, il peut maintenant faire le tour sur commande.
+
+15_Mode Monday, January 1, 2024 00:00 AM
+La nouvelle collection de vêtements de cet hiver est vraiment tendance, j'adore les couleurs et les coupes proposées.
+
+16_Cuisine Monday, January 1, 2024 00:00 AM
+J'ai essayé une nouvelle recette de pâtes ce soir, avec une sauce crémeuse aux champignons et du parmesan.
+
+17_Jardinage Monday, January 1, 2024 00:00 AM
+Le jardin commence à fleurir magnifiquement, les roses sont particulièrement éclatantes cette année.
+
+18_Technologie Monday, January 1, 2024 00:00 AM
+L'intelligence artificielle progresse à une vitesse incroyable, elle est maintenant capable de réaliser des tâches très complexes.
+
+19_Politique Monday, January 1, 2024 00:00 AM
+Les récentes élections ont apporté de nombreux changements dans le paysage politique du pays.
+
+20_Économie Monday, January 1, 2024 00:00 AM
+Les fluctuations du marché boursier cette semaine ont été imprévisibles, créant de l'incertitude chez les investisseurs.
+
+21_Environnement Monday, January 1, 2024 00:00 AM
+La déforestation continue d'être un problème majeur, mettant en danger de nombreuses espèces animales.
+
+22_Histoire Monday, January 1, 2024 00:00 AM
+La découverte récente d'un ancien artefact a apporté de nouvelles informations sur la civilisation égyptienne.
+
+23_Art Monday, January 1, 2024 00:00 AM
+L'exposition d'art contemporain que j'ai visitée hier était fascinante, les œuvres étaient très innovantes.
+
+24_Automobile Monday, January 1, 2024 00:00 AM
+Les voitures électriques gagnent en popularité grâce à leurs avantages environnementaux et économiques.
+
+25_Éducation Monday, January 1, 2024 00:00 AM
+Les méthodes d'enseignement modernes intègrent de plus en plus la technologie pour améliorer l'apprentissage des étudiants.
+
+26_Psychologie Monday, January 1, 2024 00:00 AM
+Comprendre la psychologie humaine est essentiel pour améliorer les relations interpersonnelles et le bien-être général.
+
+27_Astronomie Monday, January 1, 2024 00:00 AM
+Les dernières observations des télescopes spatiaux ont révélé de nouvelles exoplanètes potentiellement habitables.
+
+28_Gastronomie Monday, January 1, 2024 00:00 AM
+Le restaurant étoilé où j'ai dîné hier soir m'a offert une expérience culinaire inoubliable avec ses plats innovants.
+
+29_Jeux_vidéo Monday, January 1, 2024 00:00 AM
+Le nouveau jeu vidéo sorti ce mois-ci a des graphismes impressionnants et une histoire captivante.
+
+30_Mode_de_vie Monday, January 1, 2024 00:00 AM
+Adopter un mode de vie minimaliste m'a aidé à me concentrer sur l'essentiel et à réduire mon stress quotidien.

@@ -1,0 +1,87 @@
+<!--
+
+Ceci est la page principale de l'application web pour le projet de découpage des conversations et de recherche sémantique, dont on pourra accéder à une démo, voir les benchmarks et voir les explications de comment ca marche
+
+Auteur: Nathan Cerisara
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <!-- Paramètres de la page -->
+        <meta charset="utf-8" />
+        <link rel="icon" href="res/logo_ale.svg">
+
+        <!-- Titre de l'application -->
+        <title>Index - Application Web pour le projet de découpage des conversations et de recherche sémantique pour l'application Rainbow à ALE</title>
+
+        <!-- Styles de l'application -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/benchmarks.css">
+
+        <!-- Include google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div id="main_container" class="background_white_to_violet_gradient">
+
+            <div class="container m_auto center_h col h_100">
+
+
+                <!-- Titre de la page et explications -->
+                <div class="col w_75 center_h">
+                    <div>
+                        <h2>Benchmarks</h2>
+                    </div>
+
+                    <div class="m_15p p_15p">
+                        <p>Vous pouvez retrouver ici une liste de plusieurs benchmarks qui évaluent les performances et la vitesse de plusieurs algorithmes sur plusieurs tâches différentes.</p>
+                        <p>Il y a la tâche de la recherche sémantique, dont le but est de trouver un ou plusieurs messages sémantiquement proches d'un message de recherche.</p>
+                        <p>Vous pouvez aussi retrouver la tâche de la détection automatique d'entités nommés, dont l'objectif est d'identifier dans un texte les expressions ou noms qui identifient une personne, une organisation, un concept, une notion spécifique et spéciale, un mot de jargon technique, ...</p>
+                        <p>Et finalement, vous pouvez retrouver la tâche de la découpe de conversations, dont le but est de séparer une grande conversation en plusieurs sous-conversations, chacune avec son sujet de discussion précis.</p>
+                    </div>
+                </div>
+
+
+                <!-- Separateur vertical -->
+                <div class="separator_v_large"></div>
+
+                <!-- Bouton Benchmarks Recherche Sémantique -->
+                <div class="m_15p p_15p">
+                    <button id="button_benchmark_search" onclick="go_to_bm_search();">Benchmark de recherche sémantique</button>
+                </div>
+
+
+                <!-- Bouton Benchmarks NER détection automatique -->
+                <div class="m_15p p_15p">
+                    <button id="button_benchark_NER" onclick="go_to_bm_NER();">Benchmark de détection automatique d'entités nommées</button>
+                </div>
+
+
+                <!-- Bouton Benchmarks Découpage des conversations -->
+                <div class="m_15p p_15p">
+                    <button id="button_benchmark_conversations" onclick="go_to_bm_conversations();">Benchmark de découpe des conversations</button>
+                </div>
+
+
+                <!-- Separateur vertical -->
+                <div class="separator_v_large"></div>
+
+
+            </div>
+
+        </div>
+
+    </body>
+
+    <!-- Scripts -->
+    <script src="js/lib.js" type="text/javascript"></script>
+    <script src="js/general.js" type="text/javascript"></script>
+    <script src="js/benchmarks.js" type="text/javascript"></script>
+
+</html>

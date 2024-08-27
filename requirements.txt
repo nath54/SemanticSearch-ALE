@@ -1,0 +1,12 @@
+torch==2.2.1
+transformers
+optimum
+langdetect
+translate
+websockets
+py-cpuinfo
+gputil
+levenshtein
+numpy==1.26.4
+optimum[onnxruntime]
+parse

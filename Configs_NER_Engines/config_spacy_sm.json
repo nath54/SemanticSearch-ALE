@@ -1,0 +1,11 @@
+{
+    "config_name": "SpaCy_SM_NER",
+
+    "algorithms": [
+        {
+            "type": "SpaCy_SM_NER_Algorithm",
+            "coef": 1.0,
+            "redobenchmark": 1
+        }
+    ]
+}

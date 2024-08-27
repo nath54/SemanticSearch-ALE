@@ -1,0 +1,57 @@
+{
+    "type": "semantic_search",
+    "title": "Evaluation Sémantique simple en Anglais",
+    "description": "Test de recherche sémantique simple avec messages et des recherches en anglais tous sémantiquement différents, avec des recherches très courtes exprimant juste le nom de la notion sémantique recherchée. Le dataset a été créé à la main par Nathan Cerisara.",
+    "rbi_path": "RBI_simple_semantic_en",
+    "searchs": [
+
+        {
+            "search_input": "food",
+            "user_id": 0,
+            "awaited_result_message": 0
+        },
+
+        {
+            "search_input": "studies",
+            "user_id": 1,
+            "awaited_result_message": 1
+        },
+
+        {
+            "search_input": "weather",
+            "user_id": 2,
+            "awaited_result_message": 2
+        },
+
+        {
+            "search_input": "new technologies",
+            "user_id": 3,
+            "awaited_result_message": 3
+        },
+
+        {
+            "search_input": "politics",
+            "user_id": 4,
+            "awaited_result_message": 4
+        },
+
+        {
+            "search_input": "sport and health",
+            "user_id": 5,
+            "awaited_result_message": 5
+        },
+
+        {
+            "search_input": "death",
+            "user_id": 6,
+            "awaited_result_message": 6
+        },
+
+        {
+            "search_input": "art",
+            "user_id": 7,
+            "awaited_result_message": 7
+        }
+
+    ]
+}

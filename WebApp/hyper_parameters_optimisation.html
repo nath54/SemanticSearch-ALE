@@ -1,0 +1,456 @@
+<!--
+
+Ceci est la page de démo pù l'on pourra tester les différentes configurations de moteur de recherche dans des fausses instances Rainbow
+
+Auteur: Nathan Cerisara
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <!-- Paramètres de la page -->
+        <meta charset="utf-8" />
+        <link rel="icon" href="res/logo_ale.svg">
+
+        <!-- Titre de la page -->
+        <title>Optimisation des hyper-paramètres pour le projet de découpage des conversations et de recherche sémantique pour l'application Rainbow à ALE</title>
+
+        <!-- Styles de l'application -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/demo.css">
+        <link rel="stylesheet" href="css/hyper_parameters.css">
+
+        <!-- Include google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body onload="update_display();">
+
+        <div id="main_container" class="">
+
+            <div id="main_column_container" class="container col w_100 h_100">
+
+                <!-- Header -->
+                <div id="header" class="container col w_100">
+
+                    <!-- Première ligne de l'header avec le logo et le titre -->
+                    <div id="header_1" class="container row w_100">
+
+                        <!-- Logo + Nom Logo -->
+                        <div id="logo_and_name" class="container row m_l_0 left_align clickable no_select" onclick="go_to_index();">
+
+                            <!-- Logo ALE -->
+                            <div id="logo" class="m_5p center_v">
+
+                                <img class="header_logo_ale" src="res/logo_ale.svg" />
+
+                            </div>
+
+                            <!-- Texte ALE -->
+                            <div id="text_ale" class="col m_t_auto m_b_auto left_align">
+                                <div class="m_0 left_align">
+                                    <label class="m_0 left_align">Alcatel • Lucent</label>
+                                </div>
+                                <div class="m_0 left_align">
+                                    <label class="m_0 left_align">Enterprise</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Titre de la page -->
+                        <div id="page_title" class="m_auto center_v">
+                            <span>
+                                <span class="font_larger clickable" onclick="go_to_page('select_task_page');">Optimisation des hyper-paramètres</span>
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <!-- Seconde ligne de l'header avec la navigation des pages -->
+                    <div id="header_2" class="container row w_100" style="display:none;">
+
+                        <!-- Navigation Configurations -->
+                        <div id="navigation_config" class="navigation_base clickable no_select" onclick="go_to_page('select_config_page');">
+                            <img class="icon_navigation center_v" src="res/logo_config.svg" />
+                            <span class="font_larger clickable center_v">Configurations</span>
+                        </div>
+
+                        <!-- Navigation Tests Manuels -->
+                        <div id="navigation_manual_tests" class="navigation_base clickable no_select" onclick="go_to_page('manual_test_page');;">
+                            <img class="icon_navigation center_v" src="res/logo_tests_manuels.svg" />
+                            <span class="font_larger clickable center_v">Tests Manuels</span>
+                        </div>
+
+                        <!-- Navigation Optimisation Algorithmique -->
+                        <div id="navigation_algorithmic_optmization" class="navigation_base clickable no_select" onclick="go_to_page('algorithmic_optimization_page');">
+                            <img class="icon_navigation center_v" src="res/logo_optimization.svg" />
+                            <span class="font_larger clickable center_v">Optimisation Algorithmique</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page de sélection de la tâche -->
+                <div id="select_task_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="select_task_page_subcontainer">
+
+                        <div class="center_h">
+                            <h2 class="center_h">Sélectionner la tâche à étudier</h2>
+                        </div>
+
+                        <div id="available_tasks_list" class="col m_l_15p v_scroll vh_70">
+
+                            <div class="task_select_button" onclick="task_selected('NER');"> Reconnaissance d'entités nommées </div>
+
+                            <div class="task_select_button" onclick="task_selected('conversation_cut');"> Découpe des conversations </div>
+
+                            <div class="task_select_button" onclick="task_selected('search');"> Recherche </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page de chargement des configs et des benchmarks -->
+                <div id="loading_task_page" class="demo_app_subpage" style="display: none;">
+                    <div id="loading_task_page_subcontainer">
+                        <div class="center_h m_auto">
+                            <h2>Attente de la réception des données d'une tâche depuis le serveur...</h2>
+                        </div>
+                        <div class="center_h m_auto col">
+                            <span>Configurations : <span id="loading_nb_configs">0</span>/<span id="loading_tot_configs">0</span></span>
+                            <span>Benchmarks : <span id="loading_nb_benchmarks">0</span>/<span id="loading_tot_benchmarks">0</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page qui affiche une erreur lors de la connexion au serveur websocket -->
+                <div id="error_connection_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="error_connection_page_subcontainer">
+
+                        <div>
+                            <h2 class="center_h">Erreur lors de la connexion au serveur WebSocket</h2>
+                        </div>
+
+                        <div class="col m_l_15p v_scroll">
+
+                            <p id="error_message" class="center_h">Message d'erreur</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page qui indique à l'utilisateur qu'on attends toujours d'être connecté au serveur -->
+                <div id="connection_loading_page" class="demo_app_subpage">
+
+                    <div id="connection_loading_page_subcontainer">
+
+                        <div>
+                            <h2 class="center_h">Connexion au serveur...</h2>
+                        </div>
+
+                        <div class="col m_l_15p v_scroll">
+
+                            <p class="center_h">Veuillez patienter que cette application web se connecte au serveur.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page de chargement des configs et des benchmarks -->
+                <div id="loading_configs_page" class="demo_app_subpage" style="display: none;">
+                    <div id="loading_task_page_subcontainer">
+                        <div class="center_h m_auto">
+                            <h2>Attente de la réception des données des types / classes des configs depuis le serveur...</h2>
+                        </div>
+                        <div class="center_h m_auto col">
+                            <span>...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page qui liste les configurations possibles pour cette tâche -->
+                <div id="select_config_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="select_config_page_subcontainer">
+
+                        <div class="center_h">
+                            <h2 class="center_h">Sélectionner une configuration de base</h2>
+                        </div>
+
+                        <div class="col m_l_15p v_scroll vh_60" style="background-color: var(--ale_purple_extra_transparent);">
+
+                            <div class="m_b_15p">
+
+                                <div id="import_bubble_button" class="no_select" onclick="config_edit_or_create_new('');">
+                                    <img src="res/plus.svg" class="bubble_logo"/>
+                                    <span class="m_t_auto m_b_auto m_l_15p">Créer une nouvelle configuration</span>
+                                </div>
+
+                            </div>
+
+                            <div id="available_configs_list" class="col">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page pour la modification / création d'une config  -->
+                <div id="create_edit_config_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="create_edit_config_page_subcontainer">
+
+                        <div class="center_h">
+                            <h2 class="center_h">Créer / Modifier une configuration :</h2>
+                        </div>
+
+                        <div id="create_edit_config_elements" class="col m_l_15p v_scroll vh_50">
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="row flexgrow_2">
+
+                            </div>
+
+                            <div class="row flexgrow_1">
+                                <button class="bt_1 center_h" onclick="go_to_page('select_config_page');">Annuler</button>
+                            </div>
+
+                            <div class="row flexgrow_1">
+                                <button class="bt_1 center_h" onclick="save_edited_or_created_config_to_server();">Sauvegarder</button>
+                            </div>
+
+                            <div class="row flexgrow_2">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page pour les tests manuels des hyper paramètres d'une config  -->
+                <div id="manual_test_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="manual_test_page_page_subcontainer">
+
+                        <div class="">
+                            <h2 class="">Paramètres à modifier</h2>
+                        </div>
+
+                        <div>
+                            <span>Configuration sélectionnée : <b id="manual_tests_selected_config">/</b></span>
+                        </div>
+
+                        <div id="edit_config_params" class="col m_15p v_scroll vh_max_20">
+                        </div>
+
+                        <div class="row m_t_15p m_b_15p">
+
+                            <div class="row center_h">
+                                <button id="bt_send_test_request_manual_tests" class="bt_1 center_v" style="max-height: 4vh;" onclick="on_test_button_clicked_manual_tests_page();">Tester</button>
+                            </div>
+
+                            <div class="row center_h">
+                                <button id="bt_send_draw_curve_request_manual_tests" class="bt_1 center_v" style="max-height: 4vh;" onclick="on_draw_curve_button_clicked_manual_tests_page();">Tracer courbe</button>
+
+                                <span class="center_v">(<span id="nb_benchmarks_calc" class="m_r_5p"></span> calculs de tous les benchmarks)</span>
+                            </div>
+
+                            <div class="row center_h">
+                                <button class="bt_1 center_v" style="max-height: 4vh;" onclick="go_to_page('manual_test_graphs_page');">Voir la dernière courbe tracée</button>
+                            </div>
+
+                        </div>
+
+                        <div class="col m_l_15p m_t_15p v_scroll vh_max_30">
+
+                            <div id="manual_tests_benchmarks_results" class="row flex_wrap center_h"></div>
+
+                            <div id="manual_tests_average_result" class="center_h">
+
+                                <div class="row benchmark_result_div_container">
+                                    <div class="flex flexgrow_2 benchmark_result_div_name">
+                                        <span class="center_h center_v">Moyenne</span>
+                                    </div>
+                                    <div class="flex flexgrow_1 benchmark_result_div_score">
+                                        <span id="benchmark_score_avg" class="center_h center_v">/</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page pour l'affichage des courbes tracées avec les tests manuels  -->
+                <div id="manual_test_graphs_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="manual_test_graphs_page_page_subcontainer">
+
+                        <div id="graphs_benchmark_select" class="row m_l_auto m_r_auto h_scroll vw_80">
+
+                        </div>
+
+                        <div id="graphs_benchmark_graph_div" class="m_15p center_h">
+
+                        </div>
+
+                        <div class="col center_h">
+
+                            <span>Nom de la configuration : <span id="graphs_benchmark_config_name">_</span></span>
+
+                            <span>Calcul en cours : <span id="graphs_benchmark_nb_pts_calculated">0</span> / <span id="graphs_benchmark_nb_pts_tot">0</span> points</span>
+
+                            <span>Score max : <span id="graphs_benchmark_score_max">0</span> pour la valeur <span id="graphs_benchmark_value_score_max">0</span></span>
+
+                        </div>
+
+                        <div class="row center_h">
+
+                            <div>
+                                <button class="bt_1 margin_15p" onclick="">Exporter la courbe</button>
+                            </div>
+
+                            <div>
+                                <button class="bt_1 margin_15p" onclick="go_to_page('manual_test_page');">Revenir en arrière</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page pour l'affichage des courbes tracées avec les tests manuels  -->
+                <div id="algorithmic_optimization_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="algorithmic_optimization_page_subcontainer">
+
+                        <div class="row m_l_15p center_h">
+
+                            <b>Algorithme d'optimisation : </b>
+
+                            <select id="select_optimization_algorithm" class="m_l_5p" onchange="on_select_optimization_algorithm_changed();"></select>
+
+                        </div>
+
+                        <div id="optimization_algorithm_params" class="col center_h v_scroll vh_max_10 center_h">
+
+                        </div>
+
+                        <div class="col center_h m_t_15p">
+
+                            <b>Sélection des hyper-paramètres à optimiser : </b>
+
+                            <div class="v_scroll vh_max_20 center_h m_t_15p">
+
+                                <div id="optimization_algorithm_selection_hyper_parameters" class="col vh_max_100">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col center_h m_t_15p">
+
+                            <b>Optimisation sur la moyenne pondérée des benchmarks sélectionnés : </b>
+
+                            <div class="v_scroll vh_max_10 center_h m_t_15p">
+
+                                <div id="optimization_algorithm_benchmark_selection" class="col vh_max_100">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="row center_h">
+
+                            <div class="row center_h">
+                                <button class="bt_1" style="max-height: 4vh;" onclick="on_hpo_algo_optimization_button_clicked();">Optimiser</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Page pour l'affichage des courbes tracées avec les tests manuels  -->
+                <div id="algorithmic_optimization_graphs_page" class="demo_app_subpage" style="display: none;">
+
+                    <div id="algorithmic_optimization_graphs_page_page_subcontainer">
+
+                        <div id="algo_opti_graphs_graph_div" class="m_15p center_h">
+
+                        </div>
+
+                        <div class="col center_h">
+
+                            <span>Nom de la configuration : <span id="algo_opti_graphs_config_name">_</span></span>
+
+                            <span>Calcul en cours : <span id="algo_opti_graphs_nb_pts_calculated">0</span> updates</span>
+
+                            <span>Score max : <span id="algo_opti_graphs_score_max">0</span></span>
+
+                            <span class="m_t_10p">Config with score max : </span>
+
+                            <textarea id="algo_opti_graphs_config_score_max" class="hpo_algo_opti_result_textarea"></textarea>
+
+                        </div>
+
+                        <div class="row center_h">
+
+                            <div>
+                                <button class="bt_1 margin_15p" onclick="">Exporter la courbe</button>
+                            </div>
+
+                            <div>
+                                <button class="bt_1 margin_15p" onclick="go_to_page('algorithmic_optimization_page');">Revenir en arrière</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+    <!-- Scripts -->
+    <script src="js/lib.js" type="text/javascript"></script>
+    <script src="js/general.js" type="text/javascript"></script>
+    <script src="js/hyper_parameters_optimisation.js" type="text/javascript"></script>
+    <script src="js/client_websockets.js" type="text/javascript"></script>
+
+</html>

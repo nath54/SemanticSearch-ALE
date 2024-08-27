@@ -1,0 +1,42 @@
+/*
+Styles spécifiques pour la page index.html
+
+Auteur: Nathan Cerisara
+*/
+
+
+:root{
+    --color_0: rgb(23, 1, 24);
+}
+
+
+html *{
+    background-color: var(--color_0);
+    color: white;
+}
+
+::-webkit-scrollbar{
+    background-color: var(--color_0);
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 15px;
+}
+
+#container_results{
+    position: relative;
+    width: 100%;
+}
+
+.main_logo_home{
+    width: var(--size_normal);
+    height: var(--size_normal);
+}
+
+.white_aura{
+    box-shadow: rgba(255, 255, 255, 0.5) 0 0 3px 3px;
+}

@@ -1,0 +1,591 @@
+/*
+Styles globaux de l'application
+
+Auteur: Nathan Cerisara
+*/
+
+
+/* /-----/ KeyFrames pour les animations \-----\ */
+
+
+
+
+
+/* /-----/ Paramètres globaux de styles \-----\ */
+
+
+/* Variables globales de style */
+:root{
+
+    /* Taille des polices de caractères */
+    --font_size_extra_large: 5vh;
+    --font_size_large: 4vh;
+    --font_size_larger: 2.2vh;
+    --font_size_normal: 2vh;
+    --font_size_smaller: 1.8vh;
+    --font_size_small: 1.2vh;
+    --font_size_extra_small: 0.8vh;
+
+    /* Taille des éléments généraux */
+    --size_extra_large: 10vh;
+    --size_large: 8vh;
+    --size_larger: 4.4vh;
+    --size_normal: 4vh;
+    --size_smaller: 3.6vh;
+    --size_small: 2.4vh;
+    --size_extra_small: 1.6vh;
+
+    /* Couleurs */
+    --ale_purple: rgb(107, 72, 157);
+    --ale_purple_transparent: rgba(107, 72, 157, 0.95);
+
+    --bg1_base: rgb(229, 223, 237);
+    --bg1_hover: rgb(210, 199, 225);
+    --bg1_active: rgb(219, 191, 255);
+
+    --bg2_base: rgb(238, 230, 244);
+    --bg2_hover: rgb(233, 219, 244);
+    --bg2_active: rgb(230, 209, 247);
+
+    --bg3_base: rgb(69, 31, 123);
+    --bg3_hover: rgb(75, 39, 125);
+    --bg3_active: rgb(59, 22, 111);
+
+}
+
+
+/* Styles appliqués à toutes les balises html */
+html * {
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--font_size_normal);
+
+    /* Toutes les animations fluides */
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+}
+
+
+/* /-----/ On gère l'affichage par défaut de certaines balises HTML \-----\ */
+
+
+body{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+h1{
+    font-size: var(--font_size_extra_large);
+}
+
+h2{
+    font-size: var(--font_size_large);
+}
+
+h3{
+    font-size: var(--font_size_larger);
+}
+
+h4{
+    font-size: var(--font_size_normal);
+}
+
+h5{
+    font-size: var(--font_size_smaller);
+}
+
+h6{
+    font-size: var(--font_size_small);
+}
+
+b{
+    font-weight: 500;
+}
+
+i{
+    font-weight: 300;
+}
+
+button{
+    font-size: var(--font_size_normal);
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 0.3) 0 0 6px 2px;
+}
+button:hover{
+    font-size: var(--font_size_larger);
+    box-shadow: rgba(255, 255, 255, 0.3) 0 0 10px 6px;
+}
+button:active{
+    font-size: var(--font_size_smaller);
+    box-shadow: rgba(255, 255, 255, 0.0) 0 0 0 0;
+}
+
+
+
+/* /-----/ Classes de base pour gérer le positionnement \-----\ */
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.center_h {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center_v {
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.left_align {
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+
+.right_align {
+    text-align: right;
+    align-items: right;
+    justify-content: right;
+}
+
+/* /-----/ Classes de base pour gérer la taille des éléments \-----\ */
+
+
+.w_auto{
+    width: auto;
+}
+
+.h_auto{
+    height: auto;
+}
+
+.w_100{
+    width: 100%;
+}
+
+.w_95{
+    width: 95%;
+}
+
+.w_90{
+    width: 90%;
+}
+
+.w_80{
+    width: 80%;
+}
+
+.w_75{
+    width: 75%;
+}
+
+.w_50{
+    width: 50%;
+}
+
+.w_25{
+    width: 25%;
+}
+
+.w_20{
+    width: 20%;
+}
+
+.h_100{
+    height: 100%;
+}
+
+.h_95{
+    height: 95%;
+}
+
+.h_90{
+    height: 90%;
+}
+
+.h_80{
+    height: 80%;
+}
+
+.h_75{
+    height: 75%;
+}
+
+.h_50{
+    height: 50%;
+}
+
+.h_25{
+    height: 25%;
+}
+
+.h_20{
+    height: 20%;
+}
+
+.font_extra_large{
+    font-size: var(--font_size_extra_large);
+}
+
+.font_large{
+    font-size: var(--font_size_large);
+}
+
+.font_larger{
+    font-size: var(--font_size_larger);
+}
+
+.font_normal{
+    font-size: var(--font_size_normal);
+}
+
+.font_smaller{
+    font-size: var(--font_size_smaller);
+}
+
+.font_small{
+    font-size: var(--font_size_small);
+}
+
+.font_extra_small{
+    font-size: var(--font_size_extra_small);
+}
+
+
+/* /-----/ Classes de base pour gérer les marges et le padding \-----\ */
+
+.flex{
+    display: flex;
+}
+
+.flexgrow_0{
+    flex-grow: 0;
+}
+
+.flexgrow_1{
+    flex-grow: 1;
+}
+
+.flexgrow_2{
+    flex-grow: 2;
+}
+
+.flexgrow_3{
+    flex-grow: 3;
+}
+
+.flexgrow_5{
+    flex-grow: 5;
+}
+
+.flexgrow_10{
+    flex-grow: 10;
+}
+
+.flexgrow_20{
+    flex-grow: 20;
+}
+
+.flexgrow_100{
+    flex-grow: 100;
+}
+
+.m_0{
+    margin: 0;
+}
+
+.m_l_0{
+    margin-left: 0;
+}
+
+.m_r_0{
+    margin-right: 0;
+}
+
+.m_t_0{
+    margin-top: 0;
+}
+
+.m_b_0{
+    margin-bottom: 0;
+}
+
+.m_auto{
+    margin: auto;
+}
+
+.m_l_auto{
+    margin-left: auto;
+}
+
+.m_r_auto{
+    margin-right: auto;
+}
+
+.m_t_auto{
+    margin-top: auto;
+}
+
+.m_b_auto{
+    margin-bottom: auto;
+}
+
+.m_5p{
+    margin: 5px;
+}
+
+.m_l_5p{
+    margin-left: 5px;
+}
+
+.m_r_5p{
+    margin-right: 5px;
+}
+
+.m_t_5p{
+    margin-top: 5px;
+}
+
+.m_b_5p{
+    margin-bottom: 5px;
+}
+
+.m_15p{
+    margin: 15px;
+}
+
+.m_l_15p{
+    margin-left: 15px;
+}
+
+.m_r_15p{
+    margin-right: 15px;
+}
+
+.m_t_15p{
+    margin-top: 15px;
+}
+
+.m_b_15p{
+    margin-bottom: 15px;
+}
+
+.m_5v{
+    margin: 5vw;
+}
+
+.m_l_5v{
+    margin-left: 5vw;
+}
+
+.m_r_5v{
+    margin-right: 5vw;
+}
+
+.m_t_5v{
+    margin-top: 5vw;
+}
+
+.m_b_5v{
+    margin-bottom: 5vw;
+}
+
+.p_auto{
+    padding: auto;
+}
+
+.p_l_auto{
+    padding-left: auto;
+}
+
+.p_r_auto{
+    padding-right: auto;
+}
+
+.p_t_auto{
+    padding-top: auto;
+}
+
+.p_b_auto{
+    padding-bottom: auto;
+}
+
+.p_5p{
+    padding: 5px;
+}
+
+.p_l_5p{
+    padding-left: 5px;
+}
+
+.p_r_5p{
+    padding-right: 5px;
+}
+
+.p_t_5p{
+    padding-top: 5px;
+}
+
+.p_b_5p{
+    padding-bottom: 5px;
+}
+
+.p_15p{
+    padding: 15px;
+}
+
+.p_l_15p{
+    padding-left: 15px;
+}
+
+.p_r_15p{
+    padding-right: 15px;
+}
+
+.p_t_15p{
+    padding-top: 15px;
+}
+
+.p_b_15p{
+    padding-bottom: 15px;
+}
+
+.p_5v{
+    padding: 5vw;
+}
+
+.p_l_5v{
+    padding-left: 5vw;
+}
+
+.p_r_5v{
+    padding-right: 5vw;
+}
+
+.p_t_5v{
+    padding-top: 5vw;
+}
+
+.p_b_5v{
+    padding-bottom: 5vw;
+}
+
+
+/* /-----/ Classes de base pour gérer les couleurs et le fond d'ecran \-----\ */
+
+
+.background_white_to_violet_gradient{
+    background: linear-gradient(to bottom, white  0%, var(--ale_purple));
+}
+
+.cl_black{
+    color: black;
+}
+
+.cl_white{
+    color: white;
+}
+
+
+.clickable:hover{
+    color:  var(--ale_purple);
+    cursor: pointer;
+}
+.clickable *:hover{
+    color: var(--ale_purple);
+    cursor: pointer;
+}
+
+
+/* /-----/ Classes de base pour gérer les petits éléments de la page \-----\ */
+
+
+#main_container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+}
+
+.h_scroll{
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-x: auto;
+}
+
+.v_scroll{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow-y: auto;
+}
+
+.separator_v_small{
+    display: flex;
+    height: var(--size_small);
+}
+
+.separator_v_normal{
+    display: flex;
+    height: var(--size_normal);
+}
+
+.separator_v_large{
+    display: flex;
+    height: var(--size_large);
+}
+
+
+/* Logo principal ALE affiché en gros */
+.header_logo_ale{
+    width: var(--size_normal);
+    height: var(--size_normal);
+    margin: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+#header{
+    margin: 0;
+    margin-bottom: auto;
+}
+
+
+/* /-----/ Autre, non trié pour l'instant \-----\ */
+
+
+
+

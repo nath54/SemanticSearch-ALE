@@ -1,0 +1,24 @@
+{
+    "base_rainbow_instance_save_path": "../SavedImported_RBI/",
+    "base_path_data_to_convert": "../DataToImport/",
+    "models_paths" : "../models/",
+    "search_engine_configs_paths": "../Configs_SearchEngines/",
+    "conversations_engine_configs_paths": "../Configs_ConversationEngines/",
+    "ner_engine_configs_paths": "../Configs_NER_Engines/",
+    "tests_benchmarks_paths": "../TestsBenchmarks/",
+    "webapp_port": 42042,
+    "main_default_engine_config_name": "Embeddings all-MiniLM-L6-v2 with NER Engine and translation",
+    "main_server_nb_threads": 5,
+    "main_server_nb_threads_specifics_for_tasks": {
+        "search": 1,
+        "conversation_cut": 1,
+        "bubble_import": 1,
+        "test_benchmark_with_config": 1
+    },
+    "benchmarks_results_json": "../WebApp/data_benchmarks/benchmark_results.json",
+    "benchmarks_results_js": "../WebApp/data_benchmarks/benchmark_results.js",
+    "benchmark_data_json": "../WebApp/data_benchmarks/data_benchmarks.json",
+    "translation_cache_json": "../cache/translations",
+    "embedding_cache_dir": "../cache/embeddings/",
+    "NER_dicts_dir": "../Dicts_NER/"
+}

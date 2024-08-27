@@ -1,0 +1,272 @@
+{
+    "type": "conversation",
+    "title": "Conversation Segmentation Test - ChatGPT - En - 1",
+    "description": "This test is designed to segment a list of messages into multiple distinct conversations.",
+    "messages": [
+
+        {
+            "id": "0",
+            "content": "Hi everyone, gather around! We need to brainstorm for the new phone product.",
+            "author": "Alice Smith",
+            "date": "2023/10/01 - 09h00",
+            "answer_message": ""
+        },
+
+        {
+            "id": "1",
+            "content": "Hello Alice, I'm here. What ideas do we have so far?",
+            "author": "Bob Johnson",
+            "date": "2023/10/01 - 09h02",
+            "answer_message": "0"
+        },
+
+        {
+            "id": "2",
+            "content": "Morning! I was thinking we need to focus on camera quality and battery life.",
+            "author": "Claire Brown",
+            "date": "2023/10/01 - 09h05",
+            "answer_message": "0"
+        },
+
+        {
+            "id": "3",
+            "content": "Good points, Claire. What about 5G support?",
+            "author": "David Wilson",
+            "date": "2023/10/01 - 09h06",
+            "answer_message": "2"
+        },
+
+        {
+            "id": "4",
+            "content": "5G is a must. Also, we can't forget about the design. Sleek and modern!",
+            "author": "Alice Smith",
+            "date": "2023/10/01 - 09h08",
+            "answer_message": "2"
+        },
+
+        {
+            "id": "5",
+            "content": "Absolutely. We should also consider environmental impact. Maybe use recycled materials?",
+            "author": "Bob Johnson",
+            "date": "2023/10/01 - 09h10",
+            "answer_message": ""
+        },
+
+        {
+            "id": "6",
+            "content": "Agree. We need to be eco-friendly. Also, what price range are we targeting?",
+            "author": "Claire Brown",
+            "date": "2023/10/01 - 09h12",
+            "answer_message": "5"
+        },
+
+        {
+            "id": "7",
+            "content": "Let's aim for mid-range, around $700. Quality but affordable.",
+            "author": "Alice Smith",
+            "date": "2023/10/01 - 09h14",
+            "answer_message": ""
+        },
+
+        {
+            "id": "8",
+            "content": "Alright, team. Let's summarize: excellent camera, long battery life, 5G, eco-friendly materials, sleek design, and mid-range price. Anything else?",
+            "author": "David Wilson",
+            "date": "2023/10/01 - 09h16",
+            "answer_message": ""
+        },
+
+	    {
+            "id": "9",
+            "content": "Oh, don't forget about a good warranty. Customers love an extended warranty.",
+            "author": "Claire Brown",
+            "date": "2023/10/01 - 09h18",
+            "answer_message": "7"
+        },
+
+	    {
+            "id": "10",
+            "content": "I agree. An extended warranty can be a good selling point.",
+            "author": "Bob Johnson",
+            "date": "2023/10/01 - 09h20",
+            "answer_message": "9"
+        },
+
+	    {
+            "id": "11",
+            "content": "Alright, I'll start drafting some initial designs and specifications.",
+            "author": "Alice Smith",
+            "date": "2023/10/01 - 09h22",
+            "answer_message": "8"
+        },
+
+	    {
+            "id": "12",
+            "content": "Um, on a different note, have you guys seen the latest sales report?",
+            "author": "Emily Davis",
+            "date": "2023/10/01 - 10h00",
+            "answer_message": ""
+        },
+
+	    {
+            "id": "13",
+            "content": "No, what's up with the sales?",
+            "author": "David Wilson",
+            "date": "2023/10/01 - 10h05",
+            "answer_message": "12"
+        },
+
+	    {
+            "id": "14",
+            "content": "We've seen a 15% increase in the last quarter!",
+            "author": "Emily Davis",
+            "date": "2023/10/01 - 10h10",
+            "answer_message": "13"
+        },
+
+	    {
+            "id": "15",
+            "content": "That's fantastic news! This will definitely boost our new project.",
+            "author": "Claire Brown",
+            "date": "2023/10/01 - 10h12",
+            "answer_message": "14"
+        },
+
+	    {
+            "id": "16",
+            "content": "Indeed, more budget for R&D!",
+            "author": "Alice Smith",
+            "date": "2023/10/01 - 10h15",
+            "answer_message": "14"
+        },
+
+	    {
+            "id": "17",
+            "content": "Hey, I just got off the phone with our supplier. They can provide us with higher quality materials for the same cost.",
+            "author": "Bob Johnson",
+            "date": "2023/10/01 - 10h30",
+            "answer_message": "0"
+        },
+
+	    {
+            "id": "18",
+            "content": "Really? That's amazing news Bob!",
+            "author": "Alice Smith",
+            "date": "2023/10/01 - 10h35",
+            "answer_message": "17"
+        },
+
+	    {
+            "id": "19",
+            "content": "Wait, there might be a catch. Make sure to get that in writing.",
+            "author": "Claire Brown",
+            "date": "2023/10/01 - 10h40",
+            "answer_message": "18"
+        },
+
+	    {
+            "id": "20",
+            "content": "Good point, Claire. I'll follow up.",
+            "author": "Bob Johnson",
+            "date": "2023/10/01 - 10h45",
+            "answer_message": "19"
+        },
+
+	    {
+            "id": "21",
+            "content": "Hey team, what about the software for the new phone? Any thoughts?",
+            "author": "David Wilson",
+            "date": "2023/10/01 - 11h00",
+            "answer_message": ""
+        },
+
+	    {
+            "id": "22",
+            "content": "How about developing an AI assistant with unique features tailored for our phone users?",
+            "author": "Alice Smith",
+            "date": "2023/10/01 - 11h05",
+            "answer_message": "21"
+        },
+
+	    {
+            "id": "23",
+            "content": "I love that idea! What features do you have in mind, Alice?",
+            "author": "Bob Johnson",
+            "date": "2023/10/01 - 11h07",
+            "answer_message": "22"
+        },
+
+	    {
+            "id": "24",
+            "content": "Voice commands, personalized recommendations, and seamless integration with smart devices.",
+            "author": "Alice Smith",
+            "date": "2023/10/01 - 11h10",
+            "answer_message": "23"
+        },
+
+	    {
+            "id": "25",
+            "content": "Those features sound great. We should start a technical feasibility study.",
+            "author": "Claire Brown",
+            "date": "2023/10/01 - 11h12",
+            "answer_message": "24"
+        },
+
+	    {
+            "id": "26",
+            "content": "Alright, I'll coordinate with the tech team. This will be groundbreaking!",
+            "author": "David Wilson",
+            "date": "2023/10/01 - 11h15",
+            "answer_message": "25"
+        }
+
+    ],
+
+    "conversation_colors": {
+        "0":  0,
+        "1":  0,
+        "2":  0,
+        "3":  0,
+        "4":  0,
+        "5":  1,
+        "6":  1,
+        "7":  1,
+        "8":  1,
+        "9":  1,
+        "10": 1,
+        "11": 1,
+        "12": 2,
+        "13": 2,
+        "14": 2,
+        "15": 2,
+        "16": 2,
+        "17": 0,
+        "18": 0,
+        "19": 0,
+        "20": 0,
+        "21": 3,
+        "22": 3,
+        "23": 3,
+        "24": 3,
+        "25": 4,
+        "26": 4
+    },
+
+    "conversation_results": [
+        ["0", "1", "2", "3", "4", "17", "18", "19", "20"],
+        ["5", "6", "7", "8", "9", "10", "11"],
+        ["12", "13", "14", "15", "16"],
+        ["21", "22", "23", "24"],
+        ["25", "26"]
+    ],
+
+    "conversation_results_advanced": [
+        ["0", "1", "2", "3", "4"],
+        ["5", "6", "7", "8", "9", "10", "11"],
+        ["12", "13", "14", "15", "16"],
+        ["17", "18", "19", "20"],
+        ["21", "22", "23", "24"],
+        ["25", "26"]
+    ]
+
+}

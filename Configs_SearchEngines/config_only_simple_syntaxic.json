@@ -1,0 +1,14 @@
+{
+    "config_name": "Simple Syntaxic",
+    "nb_threads": 1,
+    "max_message_length": 2000,
+    "nb_search_results": 30,
+    "distance_limit": 0,
+
+    "algorithms": [
+        {
+            "type": "SimpleSyntaxic_SearchAlgorithm",
+            "coef": 1.0
+        }
+    ]
+}

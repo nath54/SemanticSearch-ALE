@@ -1,0 +1,75 @@
+{
+    "type": "semantic_search",
+    "title": "Evaluation Sémantique Basique en Anglais",
+    "description": "Test de recherche sémantique Basique avec messages et des recherches en anglais sémantiquement différents, avec des recherches très courtes exprimant juste le nom de la notion sémantique recherchée. Le dataset a été généré par Gemini(Google) et préparé/controllé par Nathan Cerisara.",
+    "rbi_path": "RBI_base_semantic_en",
+    "searchs": [
+
+        {
+            "search_input": "The meal was excellent, thank you.",
+            "user_id": 0,
+            "awaited_result_message": 0
+        },
+
+        {
+            "search_input": "I'm being a bit critical, but the food wasn't great, a bit dry.",
+            "user_id": 2,
+            "awaited_result_message": 2
+        },
+
+        {
+            "search_input": "I hope you will reimburse me for the money you owe me.",
+            "user_id": 3,
+            "awaited_result_message": 3
+        },
+
+        {
+            "search_input": "The stadium was on fire yesterday as the home team won, the fans were going crazy.",
+            "user_id": 6,
+            "awaited_result_message": 6
+        },
+
+        {
+            "search_input": "I studied a lot for these exams, it was difficult.",
+            "user_id": 8,
+            "awaited_result_message": 8
+        },
+
+        {
+            "search_input": "I can't help but read.",
+            "user_id": 13,
+            "awaited_result_message": 13
+        },
+
+        {
+            "search_input": "I've trained my pet well.",
+            "user_id": 14,
+            "awaited_result_message": 14
+        },
+
+        {
+            "search_input": "The flowers are really pretty since they bloomed",
+            "user_id": 17,
+            "awaited_result_message": 17
+        },
+
+        {
+            "search_input": "Technological progress makes it possible to do difficult things.",
+            "user_id": 18,
+            "awaited_result_message": 18
+        },
+
+        {
+            "search_input": "Contemporary art is definitely different from classical art.",
+            "user_id": 23,
+            "awaited_result_message": 23
+        },
+
+        {
+            "search_input": "Do you think we will be able to live in space in the future?",
+            "user_id": 27,
+            "awaited_result_message": 27
+        }
+
+    ]
+}

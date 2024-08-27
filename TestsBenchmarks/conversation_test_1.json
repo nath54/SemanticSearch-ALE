@@ -1,0 +1,318 @@
+{
+    "type": "conversation",
+    "title": "Test de découpe des conversations 1",
+    "description": "Il va y avoir une liste de messages, et le but est de découper cette liste de messages en plusieurs conversations.",
+    "messages": [
+
+        {
+            "id": "0",
+            "content": "Bonjour, salut tout le monde, comment ca va?",
+            "author": "Jean Dupont",
+            "date": "2024/06/24 - 11h23",
+            "answer_message": ""
+        },
+
+        {
+            "id": "1",
+            "content": "Salut, ca va bien, et toi?",
+            "author": "Léa Durand",
+            "date": "2024/06/24 - 11h24",
+            "answer_message": 0
+        },
+
+        {
+            "id": "2",
+            "content": "Coucou!",
+            "author": "Pierre Michel",
+            "date": "2024/06/24 - 11h24",
+            "answer_message": 0
+        },
+
+        {
+            "id": "3",
+            "content": "Ca va bien, merci.",
+            "author": "Jean Dupont",
+            "date": "2024/06/24 - 11h26",
+            "answer_message": 1
+        },
+
+        {
+            "id": "4",
+            "content": "Du coup, je voulais vous parler des nouvelles IA génératives, vous en pensez quoi?",
+            "author": "Jean Dupont",
+            "date": "2024/06/24 - 11h26",
+            "answer_message": ""
+        },
+
+        {
+            "id": "5",
+            "content": "C'est vraiment impressionnant, le développement de ces nouvelles technologies, mon fils a réussi à mettre en place un système de génération de musique de bonnes qualités avec une pipeline génération de paroles avec Gemma, génération de musique avec Udio, génération d'image de Cover avec Stable-Diffusion, et quelques autres éléments. Et il génère environ une 20aine de musiques par jour, qu'il publie ensuite sur Youtube. Il a pas mal de fans maintenant, ca commence à être une petite star!",
+            "author": "Léa Durand",
+            "date": "2024/06/24 - 11h28",
+            "answer_message": ""
+        },
+
+        {
+            "id": "6",
+            "content": "Perso, je trouve ca cool, mais c'est pas encore au point, par exemple, la génération d'images ou de vidéos, on peut très facilement remarquer énormément de défauts. C'est nul.",
+            "author": "Pierre Michel",
+            "date": "2024/06/24 - 11h29",
+            "answer_message": ""
+        },
+
+        {
+            "id": "7",
+            "content": "Eh, les résultats sont incroyables quand même! Même la génération de vidéos est franchement bluffante, t'as pas vu les clips de démo de l'IA SORA?",
+            "author": "Léa Durand",
+            "date": "2024/06/24 - 11h30",
+            "answer_message": ""
+        },
+
+        {
+            "id": "8",
+            "content": "Bof, c'est normal que dans leur communication et leur site web, ils ne mettent que des exemples qui marchent bien, mais on n'a pas accès au modèle. Mais soit en sûre que 99% des tests que l'on fera ne marcheront pas très bien!",
+            "author": "Pierre Michel",
+            "date": "2024/06/24 - 11h34",
+            "answer_message": ""
+        },
+
+        {
+            "id": "9",
+            "content": "Euh, désolé de vous interrompre, mais j'aimerai vous parler des finances de l'entreprise.",
+            "author": "Jean Claude",
+            "date": "2024/06/24 - 11h37",
+            "answer_message": ""
+        },
+
+        {
+            "id": "10",
+            "content": "Nan, je pense que plutôt 20% des tests que l'on fera seront des déchets, et il y aura peut-être quelques petites erreurs dans la plupart des essais, mais le résultat au global sera déjà incroyable!",
+            "author": "Léa Durand",
+            "date": "2024/06/24 - 11h39",
+            "answer_message": ""
+        },
+
+        {
+            "id": "11",
+            "content": "Ca va plutôt mal, on est dans le rouge",
+            "author": "Jean Claude",
+            "date": "2024/06/24 - 11h40",
+            "answer_message": ""
+        },
+
+        {
+            "id": "12",
+            "content": "Comment ça, dans le rouge?",
+            "author": "Jean Dupont",
+            "date": "2024/06/24 - 11h41",
+            "answer_message": 11
+        },
+
+        {
+            "id": "13",
+            "content": "On a eu une nouvelle dépense s'élevant à environ 31 milles euros de coûts d'API OpenAI qui n'avaient pas été prévues dans le budget du semestre derniers provenant de votre secteur, Jean Dupont.",
+            "author": "Jean Claude",
+            "date": "2024/06/24 - 11h44",
+            "answer_message": ""
+        },
+
+        {
+            "id": "14",
+            "content": "Comment ça qui n'ont pas été prévues ?! L'année dernière j'avais dit que j'allais les rajouter dans nos pipelines de production!",
+            "author": "Jean Dupont",
+            "date": "2024/06/24 - 11h47",
+            "answer_message": ""
+        },
+
+        {
+            "id": "15",
+            "content": "Eh, je viens de regarder, il y a aussi des modèles open-source de génération de vidéo qui sont prometteurs!",
+            "author": "Léa Durand",
+            "date": "2024/06/24 - 11h50",
+            "answer_message": ""
+        },
+
+        {
+            "id": "16",
+            "content": "Euh, et qu'est-ce qu'il faut comme config pour les faire tourner?",
+            "author": "Pierre Michel",
+            "date": "2024/06/24 - 11h41",
+            "answer_message": ""
+        },
+
+        {
+            "id": "17",
+            "content": "Et bien apparemment ils n'ont pas pris en compte ce que tu as dit. D'ailleurs c'est quoi cette histoire de modèles open-source, c'est du gratuit c'est ça? Ca permet de faire des économies?",
+            "author": "Jean Claude",
+            "date": "2024/06/24 - 11h43",
+            "answer_message": ""
+        },
+
+        {
+            "id": "18",
+            "content": "Mais comment ça ils n'ont pas pris en compte ce que j'ai dit, je les ai prévenus pleins de fois !?",
+            "author": "Jean Dupont",
+            "date": "2024/06/24 - 11h45",
+            "answer_message": ""
+        },
+
+        {
+            "id": "19",
+            "content": "Ca va encore retomber sur moi toute cette histoire...",
+            "author": "Jean Dupont",
+            "date": "2024/06/24 - 11h50",
+            "answer_message": ""
+        },
+
+        {
+            "id": "20",
+            "content": "Ca dépend, ca peux vite couter cher en facture électrique et en investissement serveurs les modèles open-source quand même!",
+            "author": "Pierre Michel",
+            "date": "2024/06/24 - 11h51",
+            "answer_message": ""
+        },
+
+        {
+            "id": "21",
+            "content": "Bonjour, suite à un déficit budgétaire délicat, j'ai la tristesse de vous annoncer que votre camarade Jean Dupont quitte ses fonctions ce soir.",
+            "author": "Gérard Pont",
+            "date": "2024/06/25 - 07h54",
+            "answer_message": ""
+        },
+
+        {
+            "id": "22",
+            "content": "Mais quoi !? Ce n'est pas de ma faute si des personnes de cette entreprises n'écoutent pas ce que je leur dit !",
+            "author": "Jean Dupont",
+            "date": "2024/06/25 - 08h03",
+            "answer_message": ""
+        },
+
+        {
+            "id": "23",
+            "content": "Je n'ai pas à écouter vos excuses Mr. Dupont. Rangez votre bureau, rendez nous les affaires que nous vous avons prêtées, et partez d'ici !",
+            "author": "Gérard Pont",
+            "date": "2024/06/25 - 08h05",
+            "answer_message": ""
+        },
+
+        {
+            "id": "24",
+            "content": "Au revoir, Jean. Bonne chance.",
+            "author": "Pierre Michel",
+            "date": "2024/06/25 - 08h12",
+            "answer_message": ""
+        },
+
+        {
+            "id": "25",
+            "content": "Sinon, maintenant que Mr. Dupont est parti, c'était une très bonne idée de sa part d'utiliser un LLM pour aider à générer tous les documents de travail de cette entreprise, creusez cette idée, et trouvez moi un LLM qui coûte pas cher.",
+            "author": "Gérard Pont",
+            "date": "2024/06/25 - 10h00",
+            "answer_message": ""
+        },
+
+        {
+            "id": "26",
+            "content": "Monsieur, vous souhaitez utiliser des LLM en local ou avec des API?",
+            "author": "Léa Durand",
+            "date": "2024/06/25 - 10h02",
+            "answer_message": ""
+        },
+
+        {
+            "id": "27",
+            "content": "Je n'en ai rien à faire, le plus important est qu'ils soient performants, tout en étant le moins cher possible.",
+            "author": "Gérard Pont",
+            "date": "2024/06/25 - 10h05",
+            "answer_message": ""
+        },
+
+        {
+            "id": "28",
+            "content": "Mr. Pont, qu'en est-il du budget de notre équipe / division pour le semestre prochain?",
+            "author": "Pierre Michel",
+            "date": "2024/06/25 - 10h22",
+            "answer_message": ""
+        },
+
+        {
+            "id": "29",
+            "content": "Vous avez le budget du semestre précédent augmenté de 5% pour couvrir les nouvelles dépenses.",
+            "author": "Gérard Pont",
+            "date": "2024/06/25 - 10h31",
+            "answer_message": ""
+        },
+
+        {
+            "id": "30",
+            "content": "Ah oui, ok, ca ne sera toujours pas assez pour tout couvrir monsieur.",
+            "author": "Pierre Michel",
+            "date": "2024/06/25 - 10h33",
+            "answer_message": ""
+        },
+
+        {
+            "id": "31",
+            "content": "Débrouillez vous, optimisez vos dépenses ou parvenez moi une proposition de licenciement. C'est votre boulot Mr. Michel.",
+            "author": "Gérard Pont",
+            "date": "2024/06/25 - 10h35",
+            "answer_message": ""
+        }
+
+    ],
+
+    "conversation_colors": {
+        "0":  0,
+        "1":  0,
+        "2":  0,
+        "3":  0,
+        "4":  1,
+        "5":  1,
+        "6":  1,
+        "7":  1,
+        "8":  1,
+        "9":  2,
+        "10": 1,
+        "11": 2,
+        "12": 2,
+        "13": 2,
+        "14": 2,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1,
+        "19": 2,
+        "20": 1,
+        "21": 3,
+        "22": 3,
+        "23": 3,
+        "24": 3,
+        "25": 4,
+        "26": 4,
+        "27": 4,
+        "28": 5,
+        "29": 5,
+        "30": 5,
+        "31": 5
+    },
+
+    "conversation_results": [
+        ["0", "1", "2", "3"],
+        ["4", "5", "6", "7", "8", "10", "15", "16", "17", "20"],
+        ["9", "11", "12", "13", "14", "18", "19"],
+        ["21", "22", "23", "24"],
+        ["25", "26", "27"],
+        ["28", "29", "30", "31"]
+    ],
+
+    "conversation_results_advanced": [
+        ["0", "1", "2", "3"],
+        ["4", "5", "6", "7", "8", "10", "15", "16", ["17", [67, 188]], "20"],
+        ["9", "11", "12", "13", "14", ["17", [0, 66]], "18", "19"],
+        ["21", "22", "23", "24"],
+        ["25", "26", "27"],
+        ["28", "29", "30", "31"]
+    ]
+
+}

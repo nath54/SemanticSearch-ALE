@@ -1,0 +1,19 @@
+{
+    "config_name": "Embeddings with All-MiniLM-L12-V2 with english translation",
+    "nb_threads": 6,
+    "max_message_length": 200,
+    "nb_search_results": 30,
+
+    "algorithms": [
+        {
+            "type": "SimpleEmbedding_SearchAlgorithm",
+            "coef": 1.0,
+            "model_name": "sentence-transformers/All-MiniLM-L12-V2",
+            "model_type": "sentence-transformers",
+            "batch_size": 1,
+            "use_cuda": 0,
+            "translate_before": "en",
+            "translate_method": "easyNMT"
+        }
+    ]
+}
