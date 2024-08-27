@@ -22,13 +22,13 @@ Un rapport technique complet est disponible ici: [lien](documents/Rapport%20Tech
 *◽ Cloner depuis la ligne de commande*
 
 ```shell
-git clone https://github.com/nath54/SemanticSearch---ALE/
+git clone https://github.com/nath54/SemanticSearch-ALE/
 ```
 
 
 *◽ télécharger directement*
 
-https://github.com/nath54/SemanticSearch---ALE/archive/refs/heads/main.zip
+https://github.com/nath54/SemanticSearch-ALE/archive/refs/heads/main.zip
 
 
 **• étape 0.1 : installer une version récente de python >= 3.10 (à vérifier la version minimale, 3.12 fonctionne bien)**
